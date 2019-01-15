@@ -31,8 +31,6 @@ set(SOURCE_FILES
     lib/cJSON/cJSON.c
     # kiss_fft130
     lib/kiss_fft130/kiss_fft.c
-    # libusb
-    lib/libusb-1.0.20/examples/ezusb.c
 
     # scopefun sources
     source/core/input/input.cpp
@@ -52,6 +50,7 @@ set(SOURCE_FILES
     source/core/opengl/opengl_shader.cpp
     source/core/memory/memory.cpp
     source/core/libusb/libusb.cpp
+    source/core/libusb/ezusb.c
     source/core/manager/manager.cpp
     source/core/file/file.cpp
     source/core/timer/timer.cpp
