@@ -1,0 +1,9 @@
+﻿This is cross platform and open source oscilloscope.
+
+This means that software, hardware and firmware are all open source.
+
+Go to http://www.scopefun.com for details and to download source packages.
+
+Authors:
+Hardware and Firmware : Dejan Priveršek
+Software : David Košenina

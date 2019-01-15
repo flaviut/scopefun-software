@@ -1,0 +1,144 @@
+////////////////////////////////////////////////////////////////////////////////
+//    ScopeFun Oscilloscope ( http://www.scopefun.com )
+//    Copyright (C) 2016 David Košenina
+//
+//    This file is part of ScopeFun Oscilloscope.
+//
+//    ScopeFun Oscilloscope is free software: you can redistribute it and/or modify
+//    it under the terms of the GNU General Public License as published by
+//    the Free Software Foundation, either version 3 of the License, or
+//    (at your option) any later version.
+//
+//    ScopeFun Oscilloscope is distributed in the hope that it will be useful,
+//    but WITHOUT ANY WARRANTY; without even the implied warranty of
+//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//    GNU General Public License for more details.
+//
+//    You should have received a copy of the GNU General Public License
+//    along with this ScopeFun Oscilloscope.  If not, see <http://www.gnu.org/licenses/>.
+//
+////////////////////////////////////////////////////////////////////////////////
+#ifndef __OSCILOSCOPE__TOOL__WINDOW__
+#define __OSCILOSCOPE__TOOL__WINDOW__
+
+////////////////////////////////////////////////////////////////////////////////
+//
+// ToolTime
+//
+////////////////////////////////////////////////////////////////////////////////
+enum Time {
+   tSecond,
+   tMili,
+   tMicro,
+   tNano,
+};
+
+////////////////////////////////////////////////////////////////////////////////
+//
+// ToolVolt
+//
+////////////////////////////////////////////////////////////////////////////////
+enum Volt {
+   vVolt,
+   vMili,
+   vMicro,
+   vNano,
+};
+
+////////////////////////////////////////////////////////////////////////////////
+//
+// ToolFrequency
+//
+////////////////////////////////////////////////////////////////////////////////
+enum Frequency {
+   fHertz,
+   fKilo,
+   fMega,
+   fGiga,
+};
+
+////////////////////////////////////////////////////////////////////////////////
+//
+// ToolCaptureTime
+//
+////////////////////////////////////////////////////////////////////////////////
+enum TimeCapture {
+   tc10ns,
+   tc20ns,
+   tc50ns,
+   tc100ns,
+   tc200ns,
+   tc500ns,
+   tc1us,
+   tc2us,
+   tc5us,
+   tc10us,
+   tc20us,
+   tc50us,
+   tc100us,
+   tc200us,
+   tc500us,
+   tc1ms,
+   tc2ms,
+   tc5ms,
+   tc10ms,
+   tc20ms,
+   tc50ms,
+   tc100ms,
+   tc200ms,
+   tc500ms,
+   tc1s,
+};
+
+////////////////////////////////////////////////////////////////////////////////
+//
+// ToolCaptureVolt
+//
+////////////////////////////////////////////////////////////////////////////////
+enum VoltageCapture{
+   vc2Volt,
+   vc1Volt,
+   vc500Mili,
+   vc200Mili,
+   vc100Mili,
+   vc50Mili,
+   vc20Mili,
+   vc10Mili,
+   vcLast,
+};
+
+////////////////////////////////////////////////////////////////////////////////
+//
+// Functions
+//
+////////////////////////////////////////////////////////////////////////////////
+class ToolText {
+public:
+   static void Time(char *buffer,int size,float value);
+   static void Hertz(char *buffer,int size,float value);
+   static void Decibels(char *buffer,int size,float value);
+   static void Volt(char *buffer,int size,float value);
+};
+
+////////////////////////////////////////////////////////////////////////////////
+//
+//
+////////////////////////////////////////////////////////////////////////////////
+double multiplyerDoubleFromValue(double value);
+int    multiplyerIndexFromValue(double value);
+
+float multiplyerFromEnum(int enumerated);
+uint  multiplyerFromValue(float value);
+
+float captureTimeFromEnum(int enumerated);
+uint  captureTimeFromValue(float value);
+
+float captureVoltFromEnum(int enumerated);
+uint  captureVoltFromValue(float value);
+
+#endif
+////////////////////////////////////////////////////////////////////////////////
+//
+//
+//
+////////////////////////////////////////////////////////////////////////////////

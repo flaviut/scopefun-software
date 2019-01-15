@@ -1,0 +1,2040 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: osc\n"
+"POT-Creation-Date: 2016-08-05 16:40+0200\n"
+"PO-Revision-Date: 2016-08-10 11:08+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ../../source\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:207 osciloscope/gui/osc.cpp:525
+#: osciloscope/gui/osc.cpp:1309 osciloscope/gui/osc.cpp:2281
+#: osciloscope/gui/osc.cpp:3823 osciloscope/gui/osc.cpp:3847
+msgid "Channel 1"
+msgstr "Canale 1"
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:208
+#: osciloscope/gui/OsciloskopMeasure.cpp:235
+#: osciloscope/gui/OsciloskopMeasure.cpp:262
+msgid "Vavg"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:209
+#: osciloscope/gui/OsciloskopMeasure.cpp:236
+#: osciloscope/gui/OsciloskopMeasure.cpp:263
+msgid "Vrms - dc"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:210
+#: osciloscope/gui/OsciloskopMeasure.cpp:237
+#: osciloscope/gui/OsciloskopMeasure.cpp:264
+msgid "Vrms - ac"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:211
+#: osciloscope/gui/OsciloskopMeasure.cpp:238
+#: osciloscope/gui/OsciloskopMeasure.cpp:265
+msgid "Vmin"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:212
+#: osciloscope/gui/OsciloskopMeasure.cpp:239
+#: osciloscope/gui/OsciloskopMeasure.cpp:266
+msgid "Vmax"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:213
+#: osciloscope/gui/OsciloskopMeasure.cpp:240
+#: osciloscope/gui/OsciloskopMeasure.cpp:267
+msgid "Vpp"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:214
+#: osciloscope/gui/OsciloskopMeasure.cpp:241
+#: osciloscope/gui/OsciloskopMeasure.cpp:268
+msgid "Tperiod"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:215
+#: osciloscope/gui/OsciloskopMeasure.cpp:242
+#: osciloscope/gui/OsciloskopMeasure.cpp:269
+msgid "Freq"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:216
+#: osciloscope/gui/OsciloskopMeasure.cpp:243
+#: osciloscope/gui/OsciloskopMeasure.cpp:270
+msgid "Surface"
+msgstr "Superficie"
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:217
+msgid "Channel 1 - X pick"
+msgstr "Canal 1e - X scegliere"
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:218
+#: osciloscope/gui/OsciloskopMeasure.cpp:226
+#: osciloscope/gui/OsciloskopMeasure.cpp:245
+#: osciloscope/gui/OsciloskopMeasure.cpp:253
+#: osciloscope/gui/OsciloskopMeasure.cpp:272
+#: osciloscope/gui/OsciloskopMeasure.cpp:280
+msgid "V1"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:219
+#: osciloscope/gui/OsciloskopMeasure.cpp:227
+#: osciloscope/gui/OsciloskopMeasure.cpp:246
+#: osciloscope/gui/OsciloskopMeasure.cpp:254
+#: osciloscope/gui/OsciloskopMeasure.cpp:273
+#: osciloscope/gui/OsciloskopMeasure.cpp:281
+msgid "V2"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:220
+#: osciloscope/gui/OsciloskopMeasure.cpp:228
+#: osciloscope/gui/OsciloskopMeasure.cpp:247
+#: osciloscope/gui/OsciloskopMeasure.cpp:255
+#: osciloscope/gui/OsciloskopMeasure.cpp:274
+#: osciloscope/gui/OsciloskopMeasure.cpp:282
+msgid "dV"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:221
+#: osciloscope/gui/OsciloskopMeasure.cpp:229
+#: osciloscope/gui/OsciloskopMeasure.cpp:248
+#: osciloscope/gui/OsciloskopMeasure.cpp:256
+#: osciloscope/gui/OsciloskopMeasure.cpp:275
+#: osciloscope/gui/OsciloskopMeasure.cpp:283
+msgid "T1"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:222
+#: osciloscope/gui/OsciloskopMeasure.cpp:230
+#: osciloscope/gui/OsciloskopMeasure.cpp:249
+#: osciloscope/gui/OsciloskopMeasure.cpp:257
+#: osciloscope/gui/OsciloskopMeasure.cpp:276
+#: osciloscope/gui/OsciloskopMeasure.cpp:284
+msgid "T2"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:223
+#: osciloscope/gui/OsciloskopMeasure.cpp:231
+#: osciloscope/gui/OsciloskopMeasure.cpp:250
+#: osciloscope/gui/OsciloskopMeasure.cpp:258
+#: osciloscope/gui/OsciloskopMeasure.cpp:277
+#: osciloscope/gui/OsciloskopMeasure.cpp:285
+msgid "dT"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:224
+#: osciloscope/gui/OsciloskopMeasure.cpp:232
+#: osciloscope/gui/OsciloskopMeasure.cpp:251
+#: osciloscope/gui/OsciloskopMeasure.cpp:259
+#: osciloscope/gui/OsciloskopMeasure.cpp:278
+#: osciloscope/gui/OsciloskopMeasure.cpp:286
+msgid "dTInv"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:225
+msgid "Channel 1 - Y pick"
+msgstr "Canale 1 - Y scegliere"
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:234 osciloscope/gui/osc.cpp:648
+#: osciloscope/gui/osc.cpp:1309 osciloscope/gui/osc.cpp:2397
+msgid "Channel 2"
+msgstr "Canale 2"
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:244
+msgid "Channel 2 - X pick"
+msgstr "Canale 2 - X scegliere"
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:252
+msgid "Channel 2 - Y pick"
+msgstr "Canale 2 - Y scegliere"
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:261 osciloscope/gui/osc.cpp:712
+msgid "Function"
+msgstr "Funzione "
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:271
+msgid "Function - X pick"
+msgstr "Funzione - X Scegliere"
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:279
+msgid "Function - Y pick"
+msgstr "Funzione - Y Scegliere"
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:288
+msgid "FFT"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:289
+msgid "Ch1V0"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:290
+msgid "Ch1V1"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:291
+msgid "Ch1VD"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:292
+msgid "Ch1F0"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:293
+msgid "Ch1F1"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:294
+msgid "Ch1FD"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:295
+msgid "Ch2V0"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:296
+msgid "Ch2V1"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:297
+msgid "Ch2VD"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:298
+msgid "Ch2F0"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:299
+msgid "Ch2F1"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:300
+msgid "Ch2FD"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:301
+msgid "FunV0"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:302
+msgid "FunV1"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:303
+msgid "FunVD"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:304
+msgid "FunF0"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:305
+msgid "FunF1"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:306
+msgid "FunFD"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:308
+msgid "DigitalX1"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:309
+msgid "DigitalX1Bit0"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:310
+msgid "DigitalX1Bit1"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:311
+msgid "DigitalX1Bit2"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:312
+msgid "DigitalX1Bit3"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:313
+msgid "DigitalX1Bit4"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:314
+msgid "DigitalX1Bit5"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:315
+msgid "DigitalX1Bit6"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:316
+msgid "DigitalX1Bit7"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:317
+msgid "DigitalX1Bit8"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:318
+msgid "DigitalX1Bit9"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:319
+msgid "DigitalX1Bit10"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:320
+msgid "DigitalX1Bit11"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:321
+msgid "DigitalX1Bit12"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:322
+msgid "DigitalX1Bit13"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:323
+msgid "DigitalX1Bit14"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:324
+msgid "DigitalX1Bit15"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:325
+msgid "DigitalX2"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:326
+msgid "DigitalX2Bit0"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:327
+msgid "DigitalX2Bit1"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:328
+msgid "DigitalX2Bit2"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:329
+msgid "DigitalX2Bit3"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:330
+msgid "DigitalX2Bit4"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:331
+msgid "DigitalX2Bit5"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:332
+msgid "DigitalX2Bit6"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:333
+msgid "DigitalX2Bit7"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:334
+msgid "DigitalX2Bit8"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:335
+msgid "DigitalX2Bit9"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:336
+msgid "DigitalX2Bit10"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:337
+msgid "DigitalX2Bit11"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:338
+msgid "DigitalX2Bit12"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:339
+msgid "DigitalX2Bit13"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:340
+msgid "DigitalX2Bit14"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:341
+msgid "DigitalX2Bit15"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:954
+#: osciloscope/gui/OsciloskopMeasure.cpp:964
+#: osciloscope/gui/OsciloskopMeasure.cpp:972
+#: osciloscope/gui/OsciloskopMeasure.cpp:981
+#: osciloscope/gui/OsciloskopMeasure.cpp:991
+#: osciloscope/gui/OsciloskopMeasure.cpp:999
+#: osciloscope/gui/OsciloskopMeasure.cpp:1008
+#: osciloscope/gui/OsciloskopMeasure.cpp:1018
+#: osciloscope/gui/OsciloskopMeasure.cpp:1026
+#: osciloscope/gui/OsciloskopMeasure.cpp:1035
+#: osciloscope/gui/OsciloskopMeasure.cpp:1055
+#: osciloscope/gui/OsciloskopMeasure.cpp:1072
+msgid "-"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:955
+#: osciloscope/gui/OsciloskopMeasure.cpp:956
+#: osciloscope/gui/OsciloskopMeasure.cpp:957
+#: osciloscope/gui/OsciloskopMeasure.cpp:958
+#: osciloscope/gui/OsciloskopMeasure.cpp:959
+#: osciloscope/gui/OsciloskopMeasure.cpp:960
+#: osciloscope/gui/OsciloskopMeasure.cpp:965
+#: osciloscope/gui/OsciloskopMeasure.cpp:966
+#: osciloscope/gui/OsciloskopMeasure.cpp:967
+#: osciloscope/gui/OsciloskopMeasure.cpp:973
+#: osciloscope/gui/OsciloskopMeasure.cpp:974
+#: osciloscope/gui/OsciloskopMeasure.cpp:975
+#: osciloscope/gui/OsciloskopMeasure.cpp:982
+#: osciloscope/gui/OsciloskopMeasure.cpp:983
+#: osciloscope/gui/OsciloskopMeasure.cpp:984
+#: osciloscope/gui/OsciloskopMeasure.cpp:985
+#: osciloscope/gui/OsciloskopMeasure.cpp:986
+#: osciloscope/gui/OsciloskopMeasure.cpp:987
+#: osciloscope/gui/OsciloskopMeasure.cpp:992
+#: osciloscope/gui/OsciloskopMeasure.cpp:993
+#: osciloscope/gui/OsciloskopMeasure.cpp:994
+#: osciloscope/gui/OsciloskopMeasure.cpp:1000
+#: osciloscope/gui/OsciloskopMeasure.cpp:1001
+#: osciloscope/gui/OsciloskopMeasure.cpp:1002
+#: osciloscope/gui/OsciloskopMeasure.cpp:1009
+#: osciloscope/gui/OsciloskopMeasure.cpp:1010
+#: osciloscope/gui/OsciloskopMeasure.cpp:1011
+#: osciloscope/gui/OsciloskopMeasure.cpp:1012
+#: osciloscope/gui/OsciloskopMeasure.cpp:1013
+#: osciloscope/gui/OsciloskopMeasure.cpp:1014
+#: osciloscope/gui/OsciloskopMeasure.cpp:1019
+#: osciloscope/gui/OsciloskopMeasure.cpp:1020
+#: osciloscope/gui/OsciloskopMeasure.cpp:1021
+#: osciloscope/gui/OsciloskopMeasure.cpp:1027
+#: osciloscope/gui/OsciloskopMeasure.cpp:1028
+#: osciloscope/gui/OsciloskopMeasure.cpp:1029
+msgid "V"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:961
+#: osciloscope/gui/OsciloskopMeasure.cpp:968
+#: osciloscope/gui/OsciloskopMeasure.cpp:969
+#: osciloscope/gui/OsciloskopMeasure.cpp:970
+#: osciloscope/gui/OsciloskopMeasure.cpp:976
+#: osciloscope/gui/OsciloskopMeasure.cpp:977
+#: osciloscope/gui/OsciloskopMeasure.cpp:978
+#: osciloscope/gui/OsciloskopMeasure.cpp:988
+#: osciloscope/gui/OsciloskopMeasure.cpp:995
+#: osciloscope/gui/OsciloskopMeasure.cpp:996
+#: osciloscope/gui/OsciloskopMeasure.cpp:997
+#: osciloscope/gui/OsciloskopMeasure.cpp:1003
+#: osciloscope/gui/OsciloskopMeasure.cpp:1004
+#: osciloscope/gui/OsciloskopMeasure.cpp:1005
+#: osciloscope/gui/OsciloskopMeasure.cpp:1015
+#: osciloscope/gui/OsciloskopMeasure.cpp:1022
+#: osciloscope/gui/OsciloskopMeasure.cpp:1023
+#: osciloscope/gui/OsciloskopMeasure.cpp:1024
+#: osciloscope/gui/OsciloskopMeasure.cpp:1030
+#: osciloscope/gui/OsciloskopMeasure.cpp:1031
+#: osciloscope/gui/OsciloskopMeasure.cpp:1032 osciloscope/gui/osc.cpp:3775
+#: osciloscope/gui/osc.cpp:3799
+msgid "s"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:962
+#: osciloscope/gui/OsciloskopMeasure.cpp:971
+#: osciloscope/gui/OsciloskopMeasure.cpp:979
+#: osciloscope/gui/OsciloskopMeasure.cpp:989
+#: osciloscope/gui/OsciloskopMeasure.cpp:998
+#: osciloscope/gui/OsciloskopMeasure.cpp:1006
+#: osciloscope/gui/OsciloskopMeasure.cpp:1016
+#: osciloscope/gui/OsciloskopMeasure.cpp:1025
+#: osciloscope/gui/OsciloskopMeasure.cpp:1033
+#: osciloscope/gui/OsciloskopMeasure.cpp:1039
+#: osciloscope/gui/OsciloskopMeasure.cpp:1040
+#: osciloscope/gui/OsciloskopMeasure.cpp:1041
+#: osciloscope/gui/OsciloskopMeasure.cpp:1045
+#: osciloscope/gui/OsciloskopMeasure.cpp:1046
+#: osciloscope/gui/OsciloskopMeasure.cpp:1047
+#: osciloscope/gui/OsciloskopMeasure.cpp:1051
+#: osciloscope/gui/OsciloskopMeasure.cpp:1052
+#: osciloscope/gui/OsciloskopMeasure.cpp:1053 osciloscope/gui/osc.cpp:3871
+#: osciloscope/gui/osc.cpp:3895
+msgid "Hz"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:963
+#: osciloscope/gui/OsciloskopMeasure.cpp:990
+#: osciloscope/gui/OsciloskopMeasure.cpp:1017
+msgid "Vs"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopMeasure.cpp:1036
+#: osciloscope/gui/OsciloskopMeasure.cpp:1037
+#: osciloscope/gui/OsciloskopMeasure.cpp:1038
+#: osciloscope/gui/OsciloskopMeasure.cpp:1042
+#: osciloscope/gui/OsciloskopMeasure.cpp:1043
+#: osciloscope/gui/OsciloskopMeasure.cpp:1044
+#: osciloscope/gui/OsciloskopMeasure.cpp:1048
+#: osciloscope/gui/OsciloskopMeasure.cpp:1049
+#: osciloscope/gui/OsciloskopMeasure.cpp:1050
+msgid "dB"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopOsciloskop.cpp:137
+#: osciloscope/gui/OsciloskopOsciloskop.cpp:217
+msgid "/data/state/main.state"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopOsciloskop.cpp:252
+#: osciloscope/gui/OsciloskopOsciloskop.cpp:2795
+msgid "/data/callibrate/start.slot"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopOsciloskop.cpp:485
+#: osciloscope/gui/OsciloskopOsciloskop.cpp:2582
+msgid "Load File As _?"
+msgstr "Carica file Come _?"
+
+#: osciloscope/gui/OsciloskopOsciloskop.cpp:486
+#: osciloscope/gui/OsciloskopOsciloskop.cpp:505
+msgid "*.osc"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopOsciloskop.cpp:504
+#: osciloscope/gui/OsciloskopOsciloskop.cpp:2607
+msgid "Save File As _?"
+msgstr "Salva file come _?"
+
+#: osciloscope/gui/OsciloskopOsciloskop.cpp:2582
+#: osciloscope/gui/OsciloskopOsciloskop.cpp:2607
+msgid "/data/state"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopOsciloskop.cpp:2582
+#: osciloscope/gui/OsciloskopOsciloskop.cpp:2607
+msgid "*.slot"
+msgstr ""
+
+#: osciloscope/gui/OsciloskopOsciloskop.cpp:2794
+msgid "/data/callibrate/callibrate.slot"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:20
+msgid "Open"
+msgstr "Aperto"
+
+#: osciloscope/gui/osc.cpp:24
+msgid "Save"
+msgstr "Salvare"
+
+#: osciloscope/gui/osc.cpp:30
+msgid "Quit"
+msgstr "Smettere"
+
+#: osciloscope/gui/osc.cpp:33
+msgid "File"
+msgstr "File"
+
+#: osciloscope/gui/osc.cpp:37
+msgid "Osciloscope 3D"
+msgstr "Oscilloscope 3D"
+
+#: osciloscope/gui/osc.cpp:41
+msgid "Osciloscope 2D"
+msgstr "Oscilloscope 2D"
+
+#: osciloscope/gui/osc.cpp:45
+msgid "FFT 3D"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:49
+msgid "FFT 2D"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:53 osciloscope/gui/osc.cpp:1642
+msgid "Digital"
+msgstr "Digitale"
+
+#: osciloscope/gui/osc.cpp:57
+msgid "View"
+msgstr "Vista"
+
+#: osciloscope/gui/osc.cpp:61 osciloscope/gui/osc.h:799
+msgid "Display"
+msgstr "Display:"
+
+#: osciloscope/gui/osc.cpp:65 osciloscope/gui/osc.h:689
+msgid "Thermal"
+msgstr "Termico"
+
+#: osciloscope/gui/osc.cpp:68
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: osciloscope/gui/osc.cpp:72
+msgid "Software Simulator"
+msgstr "Simulatore software"
+
+#: osciloscope/gui/osc.cpp:76
+msgid "Hardware Generator"
+msgstr "Generatore Hardware"
+
+#: osciloscope/gui/osc.cpp:79
+msgid "Generator"
+msgstr "Generatore"
+
+#: osciloscope/gui/osc.cpp:83 osciloscope/gui/osc.cpp:185
+msgid "Connect && Upload"
+msgstr "Collegare e Carica"
+
+#: osciloscope/gui/osc.cpp:87
+msgid "Read EEPROM"
+msgstr "Leggi EEPROM"
+
+#: osciloscope/gui/osc.cpp:91
+msgid "Write EEPROM"
+msgstr "Scrivi EEPROM"
+
+#: osciloscope/gui/osc.cpp:95
+msgid "Erase EEPROM"
+msgstr "Cancellare EEPROM"
+
+#: osciloscope/gui/osc.cpp:98
+msgid "Hardware"
+msgstr "Hardware"
+
+#: osciloscope/gui/osc.cpp:102 osciloscope/gui/osc.cpp:1421
+msgid "Analog"
+msgstr "Analogico"
+
+#: osciloscope/gui/osc.cpp:105 osciloscope/gui/osc.h:905
+msgid "Measure"
+msgstr "Misurare"
+
+#: osciloscope/gui/osc.cpp:109
+msgid "Slot 1"
+msgstr "Fessura 1"
+
+#: osciloscope/gui/osc.cpp:114
+msgid "Slot 2"
+msgstr "Fessura 2"
+
+#: osciloscope/gui/osc.cpp:118
+msgid "Slot 3"
+msgstr "Fessura 3"
+
+#: osciloscope/gui/osc.cpp:122
+msgid "Slot 4"
+msgstr "Fessura 4"
+
+#: osciloscope/gui/osc.cpp:128
+msgid "Load slot from File"
+msgstr "Slot Carica da file"
+
+#: osciloscope/gui/osc.cpp:132
+msgid "Save slot to File"
+msgstr "Risparmiare un sacco di file"
+
+#: osciloscope/gui/osc.cpp:138
+msgid "Reset To Default"
+msgstr "Riportare alle condizioni originali"
+
+#: osciloscope/gui/osc.cpp:141
+msgid "State"
+msgstr "Stato"
+
+#: osciloscope/gui/osc.cpp:144
+msgid "Language"
+msgstr "Lingua"
+
+#: osciloscope/gui/osc.cpp:147 osciloscope/gui/osc.h:978
+msgid "Debug"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:151 osciloscope/gui/osc.h:957
+msgid "About"
+msgstr "Di"
+
+#: osciloscope/gui/osc.cpp:154
+msgid "Info"
+msgstr "Info"
+
+#: osciloscope/gui/osc.cpp:167
+msgid "[ Usb ]"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:180
+msgid "Usb Connected"
+msgstr "Usb Collegato"
+
+#: osciloscope/gui/osc.cpp:188
+msgid "Control:"
+msgstr "Controllo:"
+
+#: osciloscope/gui/osc.cpp:192
+msgid "normal"
+msgstr "normale"
+
+#: osciloscope/gui/osc.cpp:192
+msgid "testmode"
+msgstr "modalità di prova"
+
+#: osciloscope/gui/osc.cpp:192
+msgid "shutdown"
+msgstr "fermare"
+
+#: osciloscope/gui/osc.cpp:198 osciloscope/gui/osc.cpp:2233
+#: osciloscope/gui/osc.cpp:2349
+msgid "Speed:"
+msgstr "Velocità:"
+
+#: osciloscope/gui/osc.cpp:202
+msgid "Automatic"
+msgstr "Automatico"
+
+#: osciloscope/gui/osc.cpp:202
+msgid "Low"
+msgstr "Basso"
+
+#: osciloscope/gui/osc.cpp:202
+msgid "Medium"
+msgstr "medio"
+
+#: osciloscope/gui/osc.cpp:202
+msgid "High"
+msgstr "Alto"
+
+#: osciloscope/gui/osc.cpp:208
+msgid "Setup:"
+msgstr "Impostare:"
+
+#: osciloscope/gui/osc.cpp:212
+msgid "Callibrate"
+msgstr "Calibrare"
+
+#: osciloscope/gui/osc.cpp:224
+msgid "[ Time ]"
+msgstr "[ Tempo ]"
+
+#: osciloscope/gui/osc.cpp:243 osciloscope/gui/osc.cpp:410
+#: osciloscope/gui/osc.cpp:533
+msgid "Capture:"
+msgstr "Catturare:"
+
+#: osciloscope/gui/osc.cpp:247
+msgid "10ns"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "20ns"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "50ns"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "100ns"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "200ns"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "500ns"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "1us"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "2us"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "5us"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "10us"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "20us"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "50us"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "100us"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "200us"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "500us"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "1ms"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "2ms"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "5ms"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "10ms"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "20ms"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "50ms"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "100ms"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "200ms"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "500ms"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:247
+msgid "1s"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:253
+msgid "ETS"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:256 osciloscope/gui/osc.cpp:454
+#: osciloscope/gui/osc.cpp:584
+msgid "Display:"
+msgstr "Display:"
+
+#: osciloscope/gui/osc.cpp:263 osciloscope/gui/osc.cpp:292
+#: osciloscope/gui/osc.cpp:313 osciloscope/gui/osc.cpp:356
+#: osciloscope/gui/osc.cpp:461 osciloscope/gui/osc.cpp:490
+#: osciloscope/gui/osc.cpp:577 osciloscope/gui/osc.cpp:613
+#: osciloscope/gui/osc.cpp:825 osciloscope/gui/osc.cpp:862
+#: osciloscope/gui/osc.cpp:875 osciloscope/gui/osc.cpp:888
+#: osciloscope/gui/osc.cpp:901 osciloscope/gui/osc.cpp:923
+#: osciloscope/gui/osc.cpp:936 osciloscope/gui/osc.cpp:949
+#: osciloscope/gui/osc.cpp:962 osciloscope/gui/osc.cpp:1032
+#: osciloscope/gui/osc.cpp:1045 osciloscope/gui/osc.cpp:1058
+#: osciloscope/gui/osc.cpp:1071 osciloscope/gui/osc.cpp:1096
+#: osciloscope/gui/osc.cpp:1109 osciloscope/gui/osc.cpp:1122
+#: osciloscope/gui/osc.cpp:1131 osciloscope/gui/osc.cpp:1135
+#: osciloscope/gui/osc.cpp:1344 osciloscope/gui/osc.cpp:1364
+#: osciloscope/gui/osc.cpp:1384 osciloscope/gui/osc.cpp:1404
+#: osciloscope/gui/osc.cpp:1470 osciloscope/gui/osc.cpp:1503
+#: osciloscope/gui/osc.cpp:1509 osciloscope/gui/osc.cpp:1515
+#: osciloscope/gui/osc.cpp:1521 osciloscope/gui/osc.cpp:1527
+#: osciloscope/gui/osc.cpp:1533 osciloscope/gui/osc.cpp:1539
+#: osciloscope/gui/osc.cpp:1545 osciloscope/gui/osc.cpp:1578
+#: osciloscope/gui/osc.cpp:1584 osciloscope/gui/osc.cpp:1590
+#: osciloscope/gui/osc.cpp:1596 osciloscope/gui/osc.cpp:1602
+#: osciloscope/gui/osc.cpp:1608 osciloscope/gui/osc.cpp:1614
+#: osciloscope/gui/osc.cpp:1620
+msgid "0"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:270 osciloscope/gui/osc.cpp:2200
+#: osciloscope/gui/osc.cpp:2316
+msgid "second"
+msgstr "secondo"
+
+#: osciloscope/gui/osc.cpp:270 osciloscope/gui/osc.cpp:468
+#: osciloscope/gui/osc.cpp:591
+msgid "mili"
+msgstr "mili"
+
+#: osciloscope/gui/osc.cpp:270 osciloscope/gui/osc.cpp:468
+#: osciloscope/gui/osc.cpp:591
+msgid "micro"
+msgstr "micro"
+
+#: osciloscope/gui/osc.cpp:270 osciloscope/gui/osc.cpp:468
+#: osciloscope/gui/osc.cpp:591
+msgid "nano"
+msgstr "nano"
+
+#: osciloscope/gui/osc.cpp:288
+msgid "X Position:"
+msgstr "X Posizione:"
+
+#: osciloscope/gui/osc.cpp:309
+msgid "Frame History:"
+msgstr "Storia Telaio:"
+
+#: osciloscope/gui/osc.cpp:330
+msgid "Play"
+msgstr "Giocare"
+
+#: osciloscope/gui/osc.cpp:330
+msgid "Pause"
+msgstr "Pausa"
+
+#: osciloscope/gui/osc.cpp:330
+msgid "Capture"
+msgstr "Catturare"
+
+#: osciloscope/gui/osc.cpp:330
+msgid "Simulate"
+msgstr "Simulare"
+
+#: osciloscope/gui/osc.cpp:330
+msgid "Clear"
+msgstr "Pulire"
+
+#: osciloscope/gui/osc.cpp:336
+msgid "Frame Size:"
+msgstr "Dimensione della cornice:"
+
+#: osciloscope/gui/osc.cpp:350
+msgid "FFT Size:"
+msgstr "FFT Dimensione:"
+
+#: osciloscope/gui/osc.cpp:368
+msgid "Current Frame To Clipboard"
+msgstr "Fotogramma corrente negli Appunti"
+
+#: osciloscope/gui/osc.cpp:371
+msgid "All Frames To Clipboard"
+msgstr "Tutti i fotogrammi nella clipboard"
+
+#: osciloscope/gui/osc.cpp:389
+msgid "[ Channel ]"
+msgstr "[ Canale ]"
+
+#: osciloscope/gui/osc.cpp:414 osciloscope/gui/osc.cpp:537
+msgid "2V"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:414 osciloscope/gui/osc.cpp:537
+msgid "1V"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:414 osciloscope/gui/osc.cpp:537
+msgid "500mV"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:414 osciloscope/gui/osc.cpp:537
+msgid "200mV"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:414 osciloscope/gui/osc.cpp:537
+msgid "100mV"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:414 osciloscope/gui/osc.cpp:537
+msgid "50mV"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:414 osciloscope/gui/osc.cpp:537
+msgid "20mV"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:414 osciloscope/gui/osc.cpp:537
+msgid "10mV"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:420 osciloscope/gui/osc.cpp:543
+msgid "Scale:"
+msgstr "Scala:"
+
+#: osciloscope/gui/osc.cpp:442 osciloscope/gui/osc.cpp:565
+msgid "Invert"
+msgstr "Invertire"
+
+#: osciloscope/gui/osc.cpp:445 osciloscope/gui/osc.cpp:568
+msgid "Ground"
+msgstr "Terra"
+
+#: osciloscope/gui/osc.cpp:448 osciloscope/gui/osc.cpp:571
+msgid "AC"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:448 osciloscope/gui/osc.cpp:571
+msgid "DC"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:468 osciloscope/gui/osc.cpp:591
+#: osciloscope/gui/osc.cpp:2221 osciloscope/gui/osc.cpp:2337
+msgid "volt"
+msgstr "volt"
+
+#: osciloscope/gui/osc.cpp:486 osciloscope/gui/osc.cpp:609
+msgid "Y Position:"
+msgstr "Y Posizione:"
+
+#: osciloscope/gui/osc.cpp:506 osciloscope/gui/osc.cpp:629
+#: osciloscope/gui/osc.cpp:690
+msgid "fft_off"
+msgstr "fft_via"
+
+#: osciloscope/gui/osc.cpp:506 osciloscope/gui/osc.cpp:629
+#: osciloscope/gui/osc.cpp:690
+msgid "fft_on"
+msgstr "fft_sopra"
+
+#: osciloscope/gui/osc.cpp:512 osciloscope/gui/osc.cpp:635
+#: osciloscope/gui/osc.cpp:696
+msgid "osc_off"
+msgstr "osc_via"
+
+#: osciloscope/gui/osc.cpp:512 osciloscope/gui/osc.cpp:635
+#: osciloscope/gui/osc.cpp:696
+msgid "osc_on"
+msgstr "osc_sopra"
+
+#: osciloscope/gui/osc.cpp:659
+msgid "Function:"
+msgstr "Funzione:"
+
+#: osciloscope/gui/osc.cpp:663
+msgid "medium(ch0,ch1)"
+msgstr "medio(canale0,canale1)"
+
+#: osciloscope/gui/osc.cpp:663
+msgid "sub(ch1,ch0)"
+msgstr "sub(canale1,canale0)"
+
+#: osciloscope/gui/osc.cpp:663
+msgid "sub(ch0,ch1)"
+msgstr "sub(canale0,canale1)"
+
+#: osciloscope/gui/osc.cpp:663
+msgid "add(ch0,ch1)"
+msgstr "add(canale0,canale1)"
+
+#: osciloscope/gui/osc.cpp:663
+msgid "min(ch0,ch1)"
+msgstr "min(canale0,canale1)"
+
+#: osciloscope/gui/osc.cpp:663
+msgid "max(ch0,ch1)"
+msgstr "max(canale0,canale1)"
+
+#: osciloscope/gui/osc.cpp:678
+msgid "XY Voltage Graph"
+msgstr "XY tensione Grafico"
+
+#: osciloscope/gui/osc.cpp:732 osciloscope/gui/osc.cpp:789
+#: osciloscope/gui/osc.cpp:986 osciloscope/gui/osc.cpp:1162
+#: osciloscope/gui/osc.cpp:1491 osciloscope/gui/osc.cpp:1566
+msgid "Custom"
+msgstr "Costume"
+
+#: osciloscope/gui/osc.cpp:732 osciloscope/gui/osc.cpp:789
+msgid "All Off"
+msgstr "All Off"
+
+#: osciloscope/gui/osc.cpp:732 osciloscope/gui/osc.cpp:789
+msgid "All On"
+msgstr "All On"
+
+#: osciloscope/gui/osc.cpp:747 osciloscope/gui/osc.cpp:858
+#: osciloscope/gui/osc.cpp:1470
+msgid "15"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:750 osciloscope/gui/osc.cpp:871
+#: osciloscope/gui/osc.cpp:1470
+msgid "13"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:753 osciloscope/gui/osc.cpp:884
+#: osciloscope/gui/osc.cpp:1470
+msgid "11"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:756 osciloscope/gui/osc.cpp:897
+#: osciloscope/gui/osc.cpp:1470
+msgid "9"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:759 osciloscope/gui/osc.cpp:919
+#: osciloscope/gui/osc.cpp:1470
+msgid "14"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:762 osciloscope/gui/osc.cpp:932
+#: osciloscope/gui/osc.cpp:1470
+msgid "12"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:765 osciloscope/gui/osc.cpp:945
+#: osciloscope/gui/osc.cpp:1470
+msgid "10"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:768 osciloscope/gui/osc.cpp:958
+#: osciloscope/gui/osc.cpp:1470
+msgid "8"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:804 osciloscope/gui/osc.cpp:1028
+#: osciloscope/gui/osc.cpp:1470
+msgid "7"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:807 osciloscope/gui/osc.cpp:1041
+#: osciloscope/gui/osc.cpp:1470
+msgid "5"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:810 osciloscope/gui/osc.cpp:1054
+#: osciloscope/gui/osc.cpp:1433 osciloscope/gui/osc.cpp:1450
+#: osciloscope/gui/osc.cpp:1470
+msgid "3"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:813 osciloscope/gui/osc.cpp:862
+#: osciloscope/gui/osc.cpp:875 osciloscope/gui/osc.cpp:888
+#: osciloscope/gui/osc.cpp:901 osciloscope/gui/osc.cpp:923
+#: osciloscope/gui/osc.cpp:936 osciloscope/gui/osc.cpp:949
+#: osciloscope/gui/osc.cpp:962 osciloscope/gui/osc.cpp:1032
+#: osciloscope/gui/osc.cpp:1045 osciloscope/gui/osc.cpp:1058
+#: osciloscope/gui/osc.cpp:1067 osciloscope/gui/osc.cpp:1071
+#: osciloscope/gui/osc.cpp:1096 osciloscope/gui/osc.cpp:1109
+#: osciloscope/gui/osc.cpp:1122 osciloscope/gui/osc.cpp:1135
+#: osciloscope/gui/osc.cpp:1433 osciloscope/gui/osc.cpp:1450
+#: osciloscope/gui/osc.cpp:1470 osciloscope/gui/osc.cpp:1503
+#: osciloscope/gui/osc.cpp:1509 osciloscope/gui/osc.cpp:1515
+#: osciloscope/gui/osc.cpp:1521 osciloscope/gui/osc.cpp:1527
+#: osciloscope/gui/osc.cpp:1533 osciloscope/gui/osc.cpp:1539
+#: osciloscope/gui/osc.cpp:1545 osciloscope/gui/osc.cpp:1578
+#: osciloscope/gui/osc.cpp:1584 osciloscope/gui/osc.cpp:1590
+#: osciloscope/gui/osc.cpp:1596 osciloscope/gui/osc.cpp:1602
+#: osciloscope/gui/osc.cpp:1608 osciloscope/gui/osc.cpp:1614
+#: osciloscope/gui/osc.cpp:1620 osciloscope/gui/osc.cpp:3438
+#: osciloscope/gui/osc.cpp:3472
+msgid "1"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:816 osciloscope/gui/osc.cpp:1092
+#: osciloscope/gui/osc.cpp:1470
+msgid "6"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:819 osciloscope/gui/osc.cpp:1105
+#: osciloscope/gui/osc.cpp:1433 osciloscope/gui/osc.cpp:1450
+#: osciloscope/gui/osc.cpp:1470
+msgid "4"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:822 osciloscope/gui/osc.cpp:1118
+#: osciloscope/gui/osc.cpp:1433 osciloscope/gui/osc.cpp:1450
+#: osciloscope/gui/osc.cpp:1470
+msgid "2"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:844
+msgid "Digital Channel"
+msgstr "Channel Digital"
+
+#: osciloscope/gui/osc.cpp:862 osciloscope/gui/osc.cpp:875
+#: osciloscope/gui/osc.cpp:888 osciloscope/gui/osc.cpp:901
+#: osciloscope/gui/osc.cpp:923 osciloscope/gui/osc.cpp:936
+#: osciloscope/gui/osc.cpp:949 osciloscope/gui/osc.cpp:962
+#: osciloscope/gui/osc.cpp:1032 osciloscope/gui/osc.cpp:1045
+#: osciloscope/gui/osc.cpp:1058 osciloscope/gui/osc.cpp:1071
+#: osciloscope/gui/osc.cpp:1096 osciloscope/gui/osc.cpp:1109
+#: osciloscope/gui/osc.cpp:1122 osciloscope/gui/osc.cpp:1135
+#: osciloscope/gui/osc.cpp:1503 osciloscope/gui/osc.cpp:1509
+#: osciloscope/gui/osc.cpp:1515 osciloscope/gui/osc.cpp:1521
+#: osciloscope/gui/osc.cpp:1527 osciloscope/gui/osc.cpp:1533
+#: osciloscope/gui/osc.cpp:1539 osciloscope/gui/osc.cpp:1545
+#: osciloscope/gui/osc.cpp:1578 osciloscope/gui/osc.cpp:1584
+#: osciloscope/gui/osc.cpp:1590 osciloscope/gui/osc.cpp:1596
+#: osciloscope/gui/osc.cpp:1602 osciloscope/gui/osc.cpp:1608
+#: osciloscope/gui/osc.cpp:1614 osciloscope/gui/osc.cpp:1620
+msgid "X"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:980 osciloscope/gui/osc.cpp:1156
+msgid "Bits:"
+msgstr "Bits:"
+
+#: osciloscope/gui/osc.cpp:986 osciloscope/gui/osc.cpp:1162
+#: osciloscope/gui/osc.cpp:1491 osciloscope/gui/osc.cpp:1566
+msgid "All Zero"
+msgstr "Tutti Zero"
+
+#: osciloscope/gui/osc.cpp:986 osciloscope/gui/osc.cpp:1162
+#: osciloscope/gui/osc.cpp:1491 osciloscope/gui/osc.cpp:1566
+msgid "All One"
+msgstr "Tutti One"
+
+#: osciloscope/gui/osc.cpp:995 osciloscope/gui/osc.cpp:1171
+msgid "Direction:"
+msgstr "Direzione:"
+
+#: osciloscope/gui/osc.cpp:1001 osciloscope/gui/osc.cpp:1177
+msgid "Output"
+msgstr "Produzione"
+
+#: osciloscope/gui/osc.cpp:1001 osciloscope/gui/osc.cpp:1177
+msgid "Input"
+msgstr "Ingresso"
+
+#: osciloscope/gui/osc.cpp:1196
+msgid "Digital Pattern"
+msgstr "Modello digitale"
+
+#: osciloscope/gui/osc.cpp:1207
+msgid "Custom Bits From File:"
+msgstr "Bit personalizzato da file:"
+
+#: osciloscope/gui/osc.cpp:1211
+msgid "./data/signal/digital.signal"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:1214 osciloscope/gui/osc.cpp:2608
+#: osciloscope/gui/osc.cpp:2766
+msgid "upload"
+msgstr "caricare"
+
+#: osciloscope/gui/osc.cpp:1226 osciloscope/gui/osc.cpp:2523
+#: osciloscope/gui/osc.cpp:2681
+msgid "Voltage:"
+msgstr "Voltaggio:"
+
+#: osciloscope/gui/osc.cpp:1236
+msgid "Frequency(100Mhz) divider:"
+msgstr "Frequenza (100 Mhz) divisore:"
+
+#: osciloscope/gui/osc.cpp:1243
+msgid "equals"
+msgstr "equivale"
+
+#: osciloscope/gui/osc.cpp:1247
+msgid "100"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:1261
+msgid "Digital Setup"
+msgstr "Impostazione digitale"
+
+#: osciloscope/gui/osc.cpp:1274
+msgid "[ Trigger ]"
+msgstr "[ Grilletto ]"
+
+#: osciloscope/gui/osc.cpp:1295 osciloscope/gui/osc.cpp:1456
+msgid "Mode:"
+msgstr "Modalità:"
+
+#: osciloscope/gui/osc.cpp:1299
+msgid "Auto"
+msgstr "Auto"
+
+#: osciloscope/gui/osc.cpp:1299
+msgid "Normal"
+msgstr "Normale"
+
+#: osciloscope/gui/osc.cpp:1299
+msgid "Single"
+msgstr "singolo"
+
+#: osciloscope/gui/osc.cpp:1299
+msgid "Immediate"
+msgstr "Immediato"
+
+#: osciloscope/gui/osc.cpp:1305
+msgid "Source:"
+msgstr "Fonte:"
+
+#: osciloscope/gui/osc.cpp:1309
+msgid "AWG 1"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:1309
+msgid "AWG 2"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:1309
+msgid "External"
+msgstr "Esterno"
+
+#: osciloscope/gui/osc.cpp:1315
+msgid "Slope:"
+msgstr "Slope:"
+
+#: osciloscope/gui/osc.cpp:1319
+msgid "Rising"
+msgstr "Crescente"
+
+#: osciloscope/gui/osc.cpp:1319
+msgid "Falling"
+msgstr "Caduta"
+
+#: osciloscope/gui/osc.cpp:1319
+msgid "Both"
+msgstr "Entrambi"
+
+#: osciloscope/gui/osc.cpp:1325
+msgid "Re-Arm"
+msgstr "Re-Arm"
+
+#: osciloscope/gui/osc.cpp:1328
+msgid "Triggered"
+msgstr "Innescato"
+
+#: osciloscope/gui/osc.cpp:1340
+msgid "Level:"
+msgstr "Livello:"
+
+#: osciloscope/gui/osc.cpp:1360
+msgid "Histeresis:"
+msgstr "Isteresi:"
+
+#: osciloscope/gui/osc.cpp:1380
+msgid "Pre-Trigger:"
+msgstr "Pre-trigger:"
+
+#: osciloscope/gui/osc.cpp:1400
+msgid "Holdoff:"
+msgstr "Tenere Off:"
+
+#: osciloscope/gui/osc.cpp:1429
+msgid "Stage:"
+msgstr "Palcoscenico:"
+
+#: osciloscope/gui/osc.cpp:1439
+msgid "Delay:"
+msgstr "Ritardo:"
+
+#: osciloscope/gui/osc.cpp:1446
+msgid "Stage Start:"
+msgstr "Fase di avvio:"
+
+#: osciloscope/gui/osc.cpp:1460
+msgid "Parallel"
+msgstr "Parallelo"
+
+#: osciloscope/gui/osc.cpp:1460
+msgid "Serial"
+msgstr "Seriale"
+
+#: osciloscope/gui/osc.cpp:1466
+msgid "Serial Channel:"
+msgstr "Canale di serie:"
+
+#: osciloscope/gui/osc.cpp:1491 osciloscope/gui/osc.cpp:1566
+msgid "All Any"
+msgstr "Tutti Qualsiasi"
+
+#: osciloscope/gui/osc.cpp:1503 osciloscope/gui/osc.cpp:1509
+#: osciloscope/gui/osc.cpp:1515 osciloscope/gui/osc.cpp:1521
+#: osciloscope/gui/osc.cpp:1527 osciloscope/gui/osc.cpp:1533
+#: osciloscope/gui/osc.cpp:1539 osciloscope/gui/osc.cpp:1545
+#: osciloscope/gui/osc.cpp:1578 osciloscope/gui/osc.cpp:1584
+#: osciloscope/gui/osc.cpp:1590 osciloscope/gui/osc.cpp:1596
+#: osciloscope/gui/osc.cpp:1602 osciloscope/gui/osc.cpp:1608
+#: osciloscope/gui/osc.cpp:1614 osciloscope/gui/osc.cpp:1620
+msgid "rising"
+msgstr "crescente"
+
+#: osciloscope/gui/osc.cpp:1503 osciloscope/gui/osc.cpp:1509
+#: osciloscope/gui/osc.cpp:1515 osciloscope/gui/osc.cpp:1521
+#: osciloscope/gui/osc.cpp:1527 osciloscope/gui/osc.cpp:1533
+#: osciloscope/gui/osc.cpp:1539 osciloscope/gui/osc.cpp:1545
+#: osciloscope/gui/osc.cpp:1578 osciloscope/gui/osc.cpp:1584
+#: osciloscope/gui/osc.cpp:1590 osciloscope/gui/osc.cpp:1596
+#: osciloscope/gui/osc.cpp:1602 osciloscope/gui/osc.cpp:1608
+#: osciloscope/gui/osc.cpp:1614 osciloscope/gui/osc.cpp:1620
+msgid "falling"
+msgstr "caduta"
+
+#: osciloscope/gui/osc.cpp:1655
+msgid "[ Progress ]"
+msgstr "[ Progresso ]"
+
+#: osciloscope/gui/osc.cpp:2173 osciloscope/gui/osc.cpp:2289
+#: osciloscope/gui/osc.cpp:2490 osciloscope/gui/osc.cpp:2648
+msgid "Type:"
+msgstr "Digitare:"
+
+#: osciloscope/gui/osc.cpp:2179 osciloscope/gui/osc.cpp:2295
+msgid "sinus"
+msgstr "seno"
+
+#: osciloscope/gui/osc.cpp:2179 osciloscope/gui/osc.cpp:2295
+msgid "cosinus"
+msgstr "cosinus"
+
+#: osciloscope/gui/osc.cpp:2179 osciloscope/gui/osc.cpp:2295
+msgid "increment"
+msgstr "incremento"
+
+#: osciloscope/gui/osc.cpp:2179 osciloscope/gui/osc.cpp:2295
+msgid "decrement"
+msgstr "diminuzione"
+
+#: osciloscope/gui/osc.cpp:2179 osciloscope/gui/osc.cpp:2295
+msgid "constant"
+msgstr "costante"
+
+#: osciloscope/gui/osc.cpp:2179 osciloscope/gui/osc.cpp:2295
+msgid "random"
+msgstr "casuale"
+
+#: osciloscope/gui/osc.cpp:2179 osciloscope/gui/osc.cpp:2295
+#: osciloscope/gui/osc.cpp:2496 osciloscope/gui/osc.cpp:2654
+msgid "square"
+msgstr "piazza"
+
+#: osciloscope/gui/osc.cpp:2179 osciloscope/gui/osc.cpp:2295
+#: osciloscope/gui/osc.cpp:2496 osciloscope/gui/osc.cpp:2654
+msgid "delta"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:2191 osciloscope/gui/osc.cpp:2307
+msgid "Period:"
+msgstr "Periodo:"
+
+#: osciloscope/gui/osc.cpp:2200 osciloscope/gui/osc.cpp:2316
+msgid "mili second"
+msgstr "mili secondo"
+
+#: osciloscope/gui/osc.cpp:2200 osciloscope/gui/osc.cpp:2316
+msgid "micro second"
+msgstr "micro secondo"
+
+#: osciloscope/gui/osc.cpp:2200 osciloscope/gui/osc.cpp:2316
+msgid "nano second"
+msgstr "nano secondo"
+
+#: osciloscope/gui/osc.cpp:2212 osciloscope/gui/osc.cpp:2328
+msgid "Peek to Peak:"
+msgstr "Picco a picco:"
+
+#: osciloscope/gui/osc.cpp:2221 osciloscope/gui/osc.cpp:2337
+msgid "mili volt"
+msgstr "mili volt"
+
+#: osciloscope/gui/osc.cpp:2221 osciloscope/gui/osc.cpp:2337
+msgid "micro volt"
+msgstr "micro volt"
+
+#: osciloscope/gui/osc.cpp:2221 osciloscope/gui/osc.cpp:2337
+msgid "nano volt"
+msgstr "nano voltio"
+
+#: osciloscope/gui/osc.cpp:2248 osciloscope/gui/osc.cpp:2364
+msgid "Avery:"
+msgstr "Avery:"
+
+#: osciloscope/gui/osc.cpp:2263 osciloscope/gui/osc.cpp:2379
+#: osciloscope/gui/osc.cpp:2620 osciloscope/gui/osc.cpp:2778
+msgid "On"
+msgstr "Sopra"
+
+#: osciloscope/gui/osc.cpp:2268 osciloscope/gui/osc.cpp:2384
+#: osciloscope/gui/osc.cpp:2626 osciloscope/gui/osc.cpp:2784
+msgid "Off"
+msgstr "Via"
+
+#: osciloscope/gui/osc.cpp:2404 osciloscope/gui/osc.cpp:2805
+#: osciloscope/gui/osc.cpp:3076 osciloscope/gui/osc.cpp:3500
+#: osciloscope/gui/osc.cpp:3939 osciloscope/gui/osc.cpp:4356
+msgid "Ok"
+msgstr "Ok"
+
+#: osciloscope/gui/osc.cpp:2407 osciloscope/gui/osc.cpp:2808
+#: osciloscope/gui/osc.cpp:3079 osciloscope/gui/osc.cpp:3503
+#: osciloscope/gui/osc.cpp:3942
+msgid "Default"
+msgstr "Predefinito"
+
+#: osciloscope/gui/osc.cpp:2410 osciloscope/gui/osc.cpp:2811
+#: osciloscope/gui/osc.cpp:3082 osciloscope/gui/osc.cpp:3506
+#: osciloscope/gui/osc.cpp:3945
+msgid "Cancel"
+msgstr "Annulla"
+
+#: osciloscope/gui/osc.cpp:2496 osciloscope/gui/osc.cpp:2654
+msgid "custom"
+msgstr "costume"
+
+#: osciloscope/gui/osc.cpp:2496 osciloscope/gui/osc.cpp:2654
+msgid "sin"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:2496 osciloscope/gui/osc.cpp:2654
+msgid "cos"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:2496 osciloscope/gui/osc.cpp:2654
+msgid "triangle"
+msgstr "triangolo"
+
+#: osciloscope/gui/osc.cpp:2496 osciloscope/gui/osc.cpp:2654
+msgid "ramp up"
+msgstr "rampa"
+
+#: osciloscope/gui/osc.cpp:2496 osciloscope/gui/osc.cpp:2654
+msgid "ramp down"
+msgstr "rampa di decelerazione"
+
+#: osciloscope/gui/osc.cpp:2496 osciloscope/gui/osc.cpp:2654
+msgid "dc"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:2496 osciloscope/gui/osc.cpp:2654
+msgid "noise"
+msgstr "rumore"
+
+#: osciloscope/gui/osc.cpp:2508 osciloscope/gui/osc.cpp:2666
+msgid "Frequency:"
+msgstr "Frequenza:"
+
+#: osciloscope/gui/osc.cpp:2544 osciloscope/gui/osc.cpp:2702
+msgid "Offset:"
+msgstr "Compensare:"
+
+#: osciloscope/gui/osc.cpp:2565 osciloscope/gui/osc.cpp:2723
+msgid "SquareDuty:"
+msgstr "SquareDuty:"
+
+#: osciloscope/gui/osc.cpp:2586 osciloscope/gui/osc.cpp:2744
+msgid "SawSlope:"
+msgstr "Saw Slope:"
+
+#: osciloscope/gui/osc.cpp:2593 osciloscope/gui/osc.cpp:2751
+msgid "Saw Slope Positive"
+msgstr "Sega pendenza positiva"
+
+#: osciloscope/gui/osc.cpp:2605 osciloscope/gui/osc.cpp:2763
+msgid "./data/signal/custom.signal"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:2640
+msgid "Generator 1"
+msgstr "Generatore 1"
+
+#: osciloscope/gui/osc.cpp:2798
+msgid "Generator 2"
+msgstr "Generatore 2"
+
+#: osciloscope/gui/osc.cpp:3022
+msgid "Heating:"
+msgstr "Riscaldamento:"
+
+#: osciloscope/gui/osc.cpp:3043
+msgid "Cooling:"
+msgstr "Raffreddamento:"
+
+#: osciloscope/gui/osc.cpp:3064
+msgid "Thermal rendering enabled"
+msgstr "Resa termica abilitata"
+
+#: osciloscope/gui/osc.cpp:3174
+msgid "Units"
+msgstr "Unità"
+
+#: osciloscope/gui/osc.cpp:3177
+msgid "Axis"
+msgstr "Asse"
+
+#: osciloscope/gui/osc.cpp:3180
+msgid "Grid"
+msgstr "Griglia"
+
+#: osciloscope/gui/osc.cpp:3189
+msgid "FFT Units"
+msgstr "FFT Unità"
+
+#: osciloscope/gui/osc.cpp:3192
+msgid "FFT Axis"
+msgstr "FFT Asse"
+
+#: osciloscope/gui/osc.cpp:3195
+msgid "FFT Grid"
+msgstr "FFT Griglia"
+
+#: osciloscope/gui/osc.cpp:3204
+msgid "Digital Units"
+msgstr "Unità digitali"
+
+#: osciloscope/gui/osc.cpp:3207
+msgid "Digital Axis"
+msgstr "Digital Axis"
+
+#: osciloscope/gui/osc.cpp:3210
+msgid "Digital Grid"
+msgstr "Griglia digitale"
+
+#: osciloscope/gui/osc.cpp:3219
+msgid "Signal:"
+msgstr "Segnale:"
+
+#: osciloscope/gui/osc.cpp:3223 osciloscope/gui/osc.cpp:3249
+msgid "Line"
+msgstr "Linea"
+
+#: osciloscope/gui/osc.cpp:3223 osciloscope/gui/osc.cpp:3249
+msgid "Triangle"
+msgstr "Triangolo"
+
+#: osciloscope/gui/osc.cpp:3229 osciloscope/gui/osc.cpp:3255
+msgid "Triangle Size:"
+msgstr "Triangolo Dimensione:"
+
+#: osciloscope/gui/osc.cpp:3245
+msgid "FFT:"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3271
+msgid "FFT Y Axis:"
+msgstr "FFT Y Asse:"
+
+#: osciloscope/gui/osc.cpp:3275
+msgid "Voltage"
+msgstr "Voltaggio"
+
+#: osciloscope/gui/osc.cpp:3275
+msgid "dB10"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3275
+msgid "dB20"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3275
+msgid "dB30"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3275
+msgid "dB40"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3275
+msgid "dB50"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3275
+msgid "dB60"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3275
+msgid "dB70"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3275
+msgid "dB80"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3275
+msgid "dB90"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3275
+msgid "dB100"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3275
+msgid "dB110"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3275
+msgid "dB120"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3281
+msgid "FFT X Axis:"
+msgstr "FFT X Asse:"
+
+#: osciloscope/gui/osc.cpp:3285
+msgid "Linear"
+msgstr "Lineare"
+
+#: osciloscope/gui/osc.cpp:3285
+msgid "Log4K"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3306
+msgid "3d surface"
+msgstr "3d superficie"
+
+#: osciloscope/gui/osc.cpp:3309
+msgid "3d light"
+msgstr "3d leggero"
+
+#: osciloscope/gui/osc.cpp:3312
+msgid "3d depth"
+msgstr "3d profondità"
+
+#: osciloscope/gui/osc.cpp:3327
+msgid "3d  Alpha Channel 0"
+msgstr "3d Alpha Canale 0"
+
+#: osciloscope/gui/osc.cpp:3333 osciloscope/gui/osc.cpp:3367
+#: osciloscope/gui/osc.cpp:3401
+msgid "64"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3336 osciloscope/gui/osc.cpp:3370
+#: osciloscope/gui/osc.cpp:3404 osciloscope/gui/osc.cpp:3441
+#: osciloscope/gui/osc.cpp:3475
+msgid "Max"
+msgstr "Max"
+
+#: osciloscope/gui/osc.cpp:3345 osciloscope/gui/osc.cpp:3379
+#: osciloscope/gui/osc.cpp:3413 osciloscope/gui/osc.cpp:3450
+#: osciloscope/gui/osc.cpp:3484
+msgid "Min"
+msgstr "Min"
+
+#: osciloscope/gui/osc.cpp:3361
+msgid "3d  Alpha Channel 1"
+msgstr "3d Alpha Canale 1"
+
+#: osciloscope/gui/osc.cpp:3395
+msgid "3d  Alpha Function"
+msgstr "3d Alpha Funzione"
+
+#: osciloscope/gui/osc.cpp:3432
+msgid "3d tessalation"
+msgstr "3d tassellazione"
+
+#: osciloscope/gui/osc.cpp:3466
+msgid "2d tessalation"
+msgstr "2d tassellazione"
+
+#: osciloscope/gui/osc.cpp:3730
+msgid "Capture Clear"
+msgstr "Cattura Cancella"
+
+#: osciloscope/gui/osc.cpp:3733
+msgid "Trigger Clear "
+msgstr "Trigger Cancella"
+
+#: osciloscope/gui/osc.cpp:3736
+msgid "Clear History"
+msgstr "Cancellare la cronologia"
+
+#: osciloscope/gui/osc.cpp:3739
+msgid "Clear X"
+msgstr "Cancella X"
+
+#: osciloscope/gui/osc.cpp:3742
+msgid "Clear Y"
+msgstr "Cancella Y"
+
+#: osciloscope/gui/osc.cpp:3745
+msgid "Clear FFT"
+msgstr "Cancella FFT"
+
+#: osciloscope/gui/osc.cpp:3748
+msgid "Copy Grid To Clipboard"
+msgstr "Copia griglia Per Appunti"
+
+#: osciloscope/gui/osc.cpp:3769
+msgid "Pick X0"
+msgstr "Scegliere X0"
+
+#: osciloscope/gui/osc.cpp:3775 osciloscope/gui/osc.cpp:3799
+msgid "ks"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3775 osciloscope/gui/osc.cpp:3799
+msgid "ms"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3775 osciloscope/gui/osc.cpp:3799
+msgid "us"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3793
+msgid "Pick X1"
+msgstr "Scegliere X1"
+
+#: osciloscope/gui/osc.cpp:3817
+msgid "Pick Y0"
+msgstr "Scegliere Y0"
+
+#: osciloscope/gui/osc.cpp:3823 osciloscope/gui/osc.cpp:3847
+msgid "Channel 0"
+msgstr "Canale 0"
+
+#: osciloscope/gui/osc.cpp:3841
+msgid "Pick Y1"
+msgstr "Scegliere Y1"
+
+#: osciloscope/gui/osc.cpp:3865
+msgid "Pick FFT0"
+msgstr "Scegliere FFT0"
+
+#: osciloscope/gui/osc.cpp:3871 osciloscope/gui/osc.cpp:3895
+msgid "KHz"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:3871 osciloscope/gui/osc.cpp:3895
+msgid "Mhz"
+msgstr "Mhz"
+
+#: osciloscope/gui/osc.cpp:3889
+msgid "Pick FFT1"
+msgstr "Scegliere FFT1"
+
+#: osciloscope/gui/osc.cpp:4201
+msgid "License"
+msgstr "Licenza"
+
+#: osciloscope/gui/osc.cpp:4213
+msgid "Information"
+msgstr "Informazioni"
+
+#: osciloscope/gui/osc.cpp:4218
+msgid ""
+"This are the libraries that were used to build this program and their "
+"licenses."
+msgstr ""
+"Questo sono le librerie che sono stati utilizzati per costruire questo "
+"programma e le loro licenze."
+
+#: osciloscope/gui/osc.cpp:4222
+msgid "Special thanks to all of them !"
+msgstr "Un ringraziamento speciale a tutti loro!"
+
+#: osciloscope/gui/osc.cpp:4238
+msgid "GLEW"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:4250
+msgid "KISS-FFT"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:4262
+msgid "wxWidgets"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:4274
+msgid "SDL2"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:4286
+msgid "cJSON"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:4298
+msgid "libusb"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:4310
+msgid "winpthreads"
+msgstr ""
+
+#: osciloscope/gui/osc.cpp:4318
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: osciloscope/gui/osc.cpp:4346
+msgid "Version"
+msgstr "Versione"
+
+#: osciloscope/gui/osc.h:457
+msgid "Oscilloscope"
+msgstr ""
+
+#: osciloscope/gui/osc.h:533
+msgid "SoftwareGenerator"
+msgstr "Generator Software"
+
+#: osciloscope/gui/osc.h:644
+msgid "HardwareGenerator"
+msgstr "Generatore Hardware"
+
+#~ msgid "Save State"
+#~ msgstr "Shrani Stanje"
+
+#~ msgid "Slovenscina"
+#~ msgstr "Slovenščina"
+
+#~ msgid "English"
+#~ msgstr "Angleščina"
+
+#~ msgid "Usb"
+#~ msgstr "Usb"
+
+#~ msgid "Auto Callibrate"
+#~ msgstr "Auto Kalibracija"
+
+#~ msgid "Time"
+#~ msgstr "Čas"
+
+#~ msgid "Digital On/Off"
+#~ msgstr "Digitali vklop/izklop"
+
+#~ msgid "Trigger"
+#~ msgstr "Prožilec"
+
+#~ msgid "AWG 0"
+#~ msgstr "AWG 0"
+
+#~ msgid "Progress"
+#~ msgstr "Napredek"
+
+#~ msgid "Generator 0"
+#~ msgstr "Generator 0"
+
+#~ msgid ""
+#~ "This are the libraries that were used to build this program and their "
+#~ "respected licenses."
+#~ msgstr ""
+#~ "To so knjižnice, ki so bile uporabljene za gradnjo tega programa in "
+#~ "njihove licence."
+
+#~ msgid "Special thanks to all of them and credits to their developers!"
+#~ msgstr "Posebna zahvala vsem ter razvijalcem!"
+
+#~ msgid "Osciloskop"
+#~ msgstr "Osciloskop"
+
+#~ msgid "Software"
+#~ msgstr "Software"
+
+#~ msgid "Slovene"
+#~ msgstr "Slovenščina"
+
+#~ msgid "Channel0"
+#~ msgstr "Kanal0"
+
+#~ msgid "Min Voltage:"
+#~ msgstr "Min volti:"
+
+#~ msgid "Volts"
+#~ msgstr "Volti"
+
+#~ msgid "Max Voltage:"
+#~ msgstr "Max volti:"
+
+#~ msgid "Peak To Peak:"
+#~ msgstr "Od vrha do vrha:"
+
+#~ msgid "Time:"
+#~ msgstr "Čas"
+
+#~ msgid "Seconds"
+#~ msgstr "Sekunde"
+
+#~ msgid "Pick Start"
+#~ msgstr "Izberi začetek"
+
+#~ msgid "Pick End"
+#~ msgstr "Izberi konec"
+
+#~ msgid "Channel1"
+#~ msgstr "Kanal1"
+
+#~ msgid "Frame:"
+#~ msgstr "Okvir:"
+
+#~ msgid "FFT Channel 0"
+#~ msgstr "FFT Kanal 0"
+
+#~ msgid "FFT Channel 1"
+#~ msgstr "FFT Kanal 1"
+
+#~ msgid "Reset"
+#~ msgstr "Resetiraj"
+
+#~ msgid "reset"
+#~ msgstr "resetiranje"
+
+#~ msgid "wakeup"
+#~ msgstr "zbudi se"
+
+#~ msgid "AC/DC"
+#~ msgstr "AC/DC"
+
+#~ msgid "16"
+#~ msgstr "16"
+
+#~ msgid "AWG"
+#~ msgstr "AWG"
+
+#~ msgid "Clear Bits 0- 7:"
+#~ msgstr "Počisti bite 0- 7:"
+
+#~ msgid "raising"
+#~ msgstr "narašča"
+
+#~ msgid "Clear Bits 8-15:"
+#~ msgstr "Počisti bite 8-15:"
+
+#~ msgid "Clear Mask:"
+#~ msgstr "Počisti masko:"
+
+#~ msgid "Progress:"
+#~ msgstr "Napredek:"
+
+#~ msgid "off"
+#~ msgstr "izklop"
+
+#~ msgid "saw"
+#~ msgstr "žaga"
+
+#~ msgid "*.signal"
+#~ msgstr "*.signal"
+
+#~ msgid "Signal"
+#~ msgstr "Signal"
+
+#~ msgid "Triangle Width:"
+#~ msgstr "Trikotnik širina:"
+
+#~ msgid "FFT Y axis:"
+#~ msgstr "FFT Y os:"
+
+#~ msgid "FFT X axis:"
+#~ msgstr "FFT X os:"
+
+#~ msgid "Glew License"
+#~ msgstr "Glew licenca"
+
+#~ msgid "Kiss FFT License"
+#~ msgstr "Kiss FFT licenca"

@@ -1,0 +1,5 @@
+#include <windows.h>
+
+AAA_ICON_OSC ICON "icon.ico"
+
+#include <wx/msw/wx.rc>

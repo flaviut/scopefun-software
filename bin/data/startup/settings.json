@@ -1,0 +1,129 @@
+{
+	"render":	{
+		"shaders21":	0,
+		"vertexBufferSizeMegaByte":	196,
+		"depthBuffer":	1,
+		"fps" : 0,
+		"threadCount"         : 1,
+		"threadBuffer"        : 1,
+		"threadDelayCaptureProducer" : 0,
+		"threadDelayPause"           : 0,
+		"threadDelayUpdateCosumer"   : 0,
+		"threadDelayUpdateProducer"  : 0,
+		"threadDelayRender"          : 0,
+		"threadDelayIdle"            : 100,
+		"threadPriorityCapture"      : 2,
+		"threadPriorityUpdate"       : 0,
+		"threadPriorityRender"       : 2,
+		"threadPriorityMain"         : 0,
+		"updateTimer"                : 0.033,
+		"renderTimer"                : 0.033
+	},
+	"speed": {
+		"low":    60,
+		"medium": 200,
+		"high":   500
+	},
+	"history":	{
+		"frameCount":	10000,
+		"frameDisplay":	16,
+		"frameLoadSave":	16,
+		"frameClipboard":	16
+	},
+	"window":	{
+		"debug" : 0,
+		"displayWidth":	 600,
+		"displayHeight": 900,
+		"controlWidth":	 800,
+		"controlHeight": 900
+	},
+	"update":	{
+		"time":	0.0
+	},
+	"generator":	{
+		"fs":	50000000
+	},
+	"ets":	{
+		"frames":	32,
+		"byteIndex":	11
+	},
+	"usb":	{
+		"ep2TimeOut":	33,
+		"ep4TimeOut":	33,
+		"ep6TimeOut":	33,
+		"xferSize":	62464,
+		"guid":	"0xae18aa60, 0x0000, 0x0000, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00",
+		"vendorId":	5840,
+		"productId":	2055,
+		"serialId":	42,
+		"checkSerialId": 0,
+		"factoryVendorId":	1204,
+		"factoryProductId":	34323
+	},
+	"measure" : {
+		"middleOffset" : 0.02
+	},
+	"digital":	{
+		"voltageCoeficient":	116
+	},
+	"callibrate":	{
+		"invertCh0":	0,
+		"invertCh1":	0,
+		"framesPerCapture":	3,
+		"gainMaxIterations":	16,
+		"gainExitPercentage":	1,
+		"analogChannelReference":	200,
+		"generatorReference":	95,
+		"generatorStep":	0.001070,
+		"gainRefValue":	{
+			"volt2":	579,
+			"volt1":	1556,
+			"mili500":	2534,
+			"mili200":	3827,
+			"mili100":	559,
+			"mili50":	1537,
+			"mili20":	2830,
+			"mili10":	3808
+		},
+		"gainRefVoltage":	{
+			"volt2":	2,
+			"volt1":	2,
+			"mili500":	2,
+			"mili200":	0.800000,
+			"mili100":	0.400000,
+			"mili50":	0.200000,
+			"mili20":	0.072000,
+			"mili10":	0.032800
+		},
+		"gainMin":	{
+			"volt2":	0,
+			"volt1":	1000,
+			"mili500":	2000,
+			"mili200":	3000,
+			"mili100":	0,
+			"mili50":	1000,
+			"mili20":	2000,
+			"mili10":	3000
+		},
+		"gainMax":	{
+			"volt2":	1000,
+			"volt1":	2000,
+			"mili500":	3000,
+			"mili200":	4095,
+			"mili100":	1000,
+			"mili50":	2000,
+			"mili20":	3000,
+			"mili10":	4095
+		},
+		"gainAttr":	{
+			"volt2":	0,
+			"volt1":	0,
+			"mili500":	0,
+			"mili200":	0,
+			"mili100":	1,
+			"mili50":	1,
+			"mili20":	1,
+			"mili10":	1
+		}
+	}
+}

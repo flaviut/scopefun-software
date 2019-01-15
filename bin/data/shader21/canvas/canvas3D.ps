@@ -1,0 +1,72 @@
+////////////////////////////////////////////////////////////////////////////////
+//    ScopeFun Oscilloscope ( http://www.scopefun.com )
+//    Copyright (C) 2016 David Košenina
+//
+//    This file is part of ScopeFun Oscilloscope.
+//
+//    ScopeFun Oscilloscope is free software: you can redistribute it and/or modify
+//    it under the terms of the GNU General Public License as published by
+//    the Free Software Foundation, either version 3 of the License, or
+//    (at your option) any later version.
+//
+//    ScopeFun Oscilloscope is distributed in the hope that it will be useful,
+//    but WITHOUT ANY WARRANTY; without even the implied warranty of
+//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//    GNU General Public License for more details.
+//
+//    You should have received a copy of the GNU General Public License
+//    along with this ScopeFun Oscilloscope.  If not, see <http://www.gnu.org/licenses/>.
+//
+////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+uniform	vec4 	  gPSRenderTarget;
+uniform	vec4 	  gPSColor;
+uniform vec4      gPSDirectionalLight;
+uniform sampler2D gPSTexture0;
+
+#ifdef TEXTURE	
+	varying vec2 Tex;
+#else
+	#ifdef NORMAL
+		varying vec4 Normal;
+	#endif
+	
+	#ifdef COLOR
+		varying vec4 WorldPosition;
+	#endif
+#endif
+
+vec4 lerp(vec4 a, vec4 b, float s)
+{
+    return (a + (b - a) * s);
+}
+
+void main()
+{	
+	vec4 outColor;
+	#ifdef TEXTURE
+		outColor = texture2D( gPSTexture0, Tex )*gPSColor;
+		if( outColor.a < 1.0 ) discard;
+	#else	
+		vec4 color = gPSColor;
+		
+		#ifdef COLOR
+			vec4 red   = vec4( 1.0, 0.f, 0.0, 1.0 );
+			float  y   = WorldPosition.y + 0.5;
+				 color = lerp( red, gPSColor, y );				
+		#endif
+		
+		#ifdef LIGHT
+			float dotProduct = dot(normalize(Normal.xyz), -normalize(gPSDirectionalLight.xyz));
+			color = vec4( color.xyz * dotProduct, 1.0 );
+		#endif
+		
+		outColor   = color;
+		outColor.a = gPSColor.a;
+	#endif
+	gl_FragColor = outColor;
+}
