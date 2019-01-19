@@ -1,4 +1,4 @@
-﻿This is cross platform and open source oscilloscope.
+This is cross platform and open source oscilloscope.
 
 This means that software, hardware and firmware are all open source.
 
