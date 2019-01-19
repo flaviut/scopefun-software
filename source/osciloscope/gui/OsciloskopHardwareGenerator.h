@@ -81,7 +81,7 @@ class OsciloskopHardwareGenerator : public HardwareGenerator
 		/** Constructor */
 		OsciloskopHardwareGenerator( wxWindow* parent );
 	//// end generated class members
-	
+
 };
 
 #endif // __OsciloskopHardwareGenerator__

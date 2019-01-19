@@ -12,7 +12,7 @@ static double cputime(void)
 }
 
 static
-kiss_fft_scalar rand_scalar(void) 
+kiss_fft_scalar rand_scalar(void)
 {
 #ifdef USE_SIMD
     return _mm_set1_ps(rand()-RAND_MAX/2);
@@ -40,7 +40,7 @@ double snr_compare( kiss_fft_cpx * vec1,kiss_fft_cpx * vec2, int n)
     }
 #else
     for (k=0;k<n;++k) {
-        sigpow += (double)vec1[k].r * (double)vec1[k].r + 
+        sigpow += (double)vec1[k].r * (double)vec1[k].r +
                   (double)vec1[k].i * (double)vec1[k].i;
         err = (double)vec1[k].r - (double)vec2[k].r;
         noisepow += err * err;
@@ -50,7 +50,7 @@ double snr_compare( kiss_fft_cpx * vec1,kiss_fft_cpx * vec2, int n)
         if (vec1[k].r)
             scale +=(double) vec2[k].r / (double)vec1[k].r;
     }
-#endif    
+#endif
     snr = 10*log10( sigpow / noisepow );
     scale /= n;
     if (snr<10) {
@@ -99,13 +99,13 @@ int main(int argc,char ** argv)
     printf(" results from kiss_fft : (%f,%f), (%f,%f), (%f,%f) ...\n "
             , (float)cout[0].r , (float)cout[0].i
             , (float)cout[1].r , (float)cout[1].i
-            , (float)cout[2].r , (float)cout[2].i); 
+            , (float)cout[2].r , (float)cout[2].i);
     printf(" results from kiss_fftr: (%f,%f), (%f,%f), (%f,%f) ...\n "
             , (float)sout[0].r , (float)sout[0].i
             , (float)sout[1].r , (float)sout[1].i
-            , (float)sout[2].r , (float)sout[2].i); 
+            , (float)sout[2].r , (float)sout[2].i);
     */
-        
+
     printf( "nfft=%d, inverse=%d, snr=%g\n",
             nfft,0, snr_compare(cout,sout,(nfft/2)+1) );
     ts = cputime();
@@ -113,7 +113,7 @@ int main(int argc,char ** argv)
         kiss_fft(kiss_fft_state,cin,cout);
     }
     tfft = cputime() - ts;
-    
+
     ts = cputime();
     for (i=0;i<NUMFFTS;++i) {
         kiss_fftr( kiss_fftr_state, rin, cout );
@@ -142,7 +142,7 @@ int main(int argc,char ** argv)
     cin[nfft/2].r = 12000;
 #endif
 
-    // conjugate symmetry of real signal 
+    // conjugate symmetry of real signal
     for (i=1;i< nfft/2;++i) {
         cin[nfft-i].r = cin[i].r;
         cin[nfft-i].i = - cin[i].i;
@@ -153,7 +153,7 @@ int main(int argc,char ** argv)
     /*
     printf(" results from inverse kiss_fft : (%f,%f), (%f,%f), (%f,%f), (%f,%f), (%f,%f) ...\n "
             , (float)cout[0].r , (float)cout[0].i , (float)cout[1].r , (float)cout[1].i , (float)cout[2].r , (float)cout[2].i , (float)cout[3].r , (float)cout[3].i , (float)cout[4].r , (float)cout[4].i
-            ); 
+            );
 
     printf(" results from inverse kiss_fftr: %f,%f,%f,%f,%f ... \n"
             ,(float)rout[0] ,(float)rout[1] ,(float)rout[2] ,(float)rout[3] ,(float)rout[4]);

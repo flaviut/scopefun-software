@@ -57,13 +57,13 @@ void addFiles(vector<wstring>& names,wstring dir)
 
 void main()
 {
-   
+
    printf("begin");
 
    // find files
    vector<wstring> names;
-   vector<wstring> dir;   
-   addFiles( names, L"../../source/" ); 
+   vector<wstring> dir;
+   addFiles( names, L"../../source/" );
    addFiles( names, L"../../bin/data/shader21/" );
    addFiles (names, L"../../bin/data/shader32/" );
 
@@ -88,14 +88,14 @@ void main()
 
    // write output
    wstring cpp = L".cpp";
-   wstring hpp = L".h";   
+   wstring hpp = L".h";
    wstring vs  = L".ps";
    wstring ps  = L".vs";
    for (int i = 0; i < (int)names.size(); i++)
    {
       wstring file = names[i];
       size_t  last = file.find_last_of('.');
-      wstring fend = file.substr( last, file.length() - last );      
+      wstring fend = file.substr( last, file.length() - last );
       if ( fend == cpp || fend == hpp || fend == vs || fend == ps )
       {
          // input read
@@ -111,7 +111,7 @@ void main()
          CloseHandle(handle);
 
          // find header insert place
-         DWORD insertPos;         
+         DWORD insertPos;
          if( fend == cpp || fend == hpp )
          {
             for (int c = 0; c < (int)inputSize;c++ )
@@ -130,8 +130,8 @@ void main()
             insertPos   = (int)code.find("////////////////////////////////////////////////////////////////////////////////", len );
             insertPos  += len;
          }
-         
-         // copy 
+
+         // copy
          memcpy_s(&output[headerSize], MAX_FILE_SIZE, &input[insertPos], inputSize - insertPos);
 
          // output write

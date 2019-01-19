@@ -63,13 +63,13 @@ public:
    }
 
    int find(const T &el) const
-   {    
+   {
       int low  = 0;
       int high = count-1;
       while( low < high || low == high )
       {
          // mid = (low + high)/2 written as this prevents overflow
-         int mid = low + ((high - low) / 2); 
+         int mid = low + ((high - low) / 2);
          if( data[mid] > el )
          {
             // element must be somewhere in the lower half
@@ -84,10 +84,10 @@ public:
          {
             // exact match found, return result
             return mid;
-         }             
+         }
       }
-      
-      // not found, return insert point as negative value      
+
+      // not found, return insert point as negative value
       return -1-low;
    }
 
@@ -109,9 +109,9 @@ public:
       {
          index  = -index;
          index -= 1;
-         
+
          setCount( count + 1 );
-         
+
          for(int idx=count-1;idx>index;idx--)
          {
             data[idx] = data[idx-1];
@@ -133,7 +133,7 @@ public:
    {
       int index = find(el);
       if(index == -1) return;
-      
+
       remove(index);
    }
 
@@ -143,7 +143,7 @@ public:
       int idx = insert(element);
       if(idx<0)
          CORE_ABORT("Can't insert element into set",0);
-      
+
       return data[idx];
    }
 

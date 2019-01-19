@@ -37,7 +37,7 @@ in  vec2 Tex;
 out vec4 outColor;
 
 void main()
-{	
+{
 	float shadow = texture( gPSTexture0, Tex ).x;
 	outColor = vec4(shadow - gPSCool.x);
 	outColor = clamp( outColor, vec4(0), vec4(1) );

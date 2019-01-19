@@ -65,7 +65,7 @@ void config(int argc,char** argv)
     }
 
     if ( optind < argc ) {
-        if ( strcmp("-",argv[optind]) !=0 ) 
+        if ( strcmp("-",argv[optind]) !=0 )
             fout = fopen(argv[optind],"wb");
         ++optind;
     }
@@ -84,7 +84,7 @@ typedef struct
     png_byte b;
 } rgb_t;
 
-static 
+static
 void val2rgb(float x,rgb_t *p)
 {
     const double pi = 3.14159265358979;
@@ -142,15 +142,15 @@ void transform_signal(void)
     while (1) {
         if (stereo) {
             n = fread(inbuf,sizeof(short)*2,nfft,fin);
-            if (n != nfft ) 
+            if (n != nfft )
                 break;
-            for (i=0;i<nfft;++i) 
+            for (i=0;i<nfft;++i)
                 tbuf[i] = inbuf[2*i] + inbuf[2*i+1];
         }else{
             n = fread(inbuf,sizeof(short),nfft,fin);
-            if (n != nfft ) 
+            if (n != nfft )
                 break;
-            for (i=0;i<nfft;++i) 
+            for (i=0;i<nfft;++i)
                 tbuf[i] = inbuf[i];
         }
 
@@ -195,14 +195,14 @@ void make_png(void)
 
     png_structp png_ptr=NULL;
     png_infop info_ptr=NULL;
-    
+
     CHECKNULL( png_ptr = png_create_write_struct (PNG_LIBPNG_VER_STRING,0,0,0) );
     CHECKNULL( info_ptr = png_create_info_struct(png_ptr) );
 
 
     png_init_io(png_ptr, fout );
     png_set_IHDR(png_ptr, info_ptr ,nfreqs,nrows,8,PNG_COLOR_TYPE_RGB,PNG_INTERLACE_NONE,PNG_COMPRESSION_TYPE_DEFAULT,PNG_FILTER_TYPE_DEFAULT );
-    
+
 
     row_data = (rgb_t*)malloc(sizeof(rgb_t) * nrows * nfreqs) ;
     cpx2pixels(row_data, vals, nfreqs*nrows );

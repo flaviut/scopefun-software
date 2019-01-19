@@ -42,13 +42,13 @@ GrTexture::GrTexture()
 GrTexture *grCreateRenderTarget(RenderTargetType type,int width,int height)
 {
    GrTexture *pGlTexture = (GrTexture*)new GrTexture();
-   
+
    glGenTextures(1, &pGlTexture->textureIndex);
    glBindTexture(GL_TEXTURE_2D, pGlTexture->textureIndex);
-   
+
    pGlTexture->width  = width;
    pGlTexture->height = height;
-   pGlTexture->mips   = 0;   
+   pGlTexture->mips   = 0;
 
    switch( type ) {
    case RENDER_TARGET_TYPE_RGBA:
@@ -77,52 +77,52 @@ GrTexture *grCreateRenderTarget(RenderTargetType type,int width,int height)
    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAX_LEVEL, 0);
    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-      
-   glBindTexture(GL_TEXTURE_2D, 0);   
+
+   glBindTexture(GL_TEXTURE_2D, 0);
    return pGlTexture;
 }
 
 GrTexture *grCreateDepthStencil(DepthStencilType type,int width,int height)
 {
    GrTexture *pGlTexture = (GrTexture *)new GrTexture();
-   
+
    pGlTexture->width  = width;
    pGlTexture->height = height;
    pGlTexture->mips   = 0;
    pGlTexture->format = GL_DEPTH_COMPONENT;
    pGlTexture->internalFormat = GL_DEPTH_COMPONENT32F;
    pGlTexture->type = GL_FLOAT;
-   
+
    glGenRenderbuffers(1, &pGlTexture->textureIndex);
    glBindRenderbuffer(GL_RENDERBUFFER, pGlTexture->textureIndex);
    glRenderbufferStorage(GL_RENDERBUFFER, GL_DEPTH_COMPONENT32F, width, height);
    glBindRenderbuffer(GL_RENDERBUFFER, 0);
-   
+
    return pGlTexture;
 }
 
 GrTexture *grCreateTexture(const char* fileName)
 {
    GrTexture* pGlTexture = (GrTexture*)new GrTexture();
-   
+
    ilarge memorySize = 0;
-   fileLoad(fileName, (char**)&pGlTexture->memory, &memorySize);   
-   
+   fileLoad(fileName, (char**)&pGlTexture->memory, &memorySize);
+
    DdsHeader *header = (DdsHeader*)( pGlTexture->memory + sizeof(uint) );
    byte*       data  = pGlTexture->memory + sizeof(DdsHeader) + sizeof(uint);
-   
+
    // allocate a texture name
    glGenTextures( 1, &pGlTexture->textureIndex );
-   
+
    // select our current texture
    glActiveTexture(GL_TEXTURE0);
    glBindTexture( GL_TEXTURE_2D, pGlTexture->textureIndex );
-   
+
    uint offset    = 0;
    uint width     = header->dwWidth;
    uint height    = header->dwHeight;
    uint mips      = header->dwMipMapCount+1;
-   
+
    uint   blockSize = 0;
    GLenum format    = 0;
    if( memcmp( &header->ddpf.dwFourCC, "DXT1", 4 ) == 0 )
@@ -140,34 +140,34 @@ GrTexture *grCreateTexture(const char* fileName)
       format    = GL_COMPRESSED_RGBA_S3TC_DXT5_EXT;
       blockSize = 16;
    }
-   
+
    pGlTexture->width  = width;
    pGlTexture->height = height;
    pGlTexture->mips   = mips;
    pGlTexture->format = format;
-   
+
    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MIN_LOD,0);
    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MAX_LOD,12);
    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_BASE_LEVEL,0);
    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MAX_LEVEL,12);
    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MIN_FILTER, GL_LINEAR);
    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-   
+
    for(uint i=0;i<mips;i++)
    {
       uint buffSize = (((width + 3)/4) * ((height+3)/4))*blockSize;
-      
+
       glCompressedTexImage2D(GL_TEXTURE_2D,  i,  format,  width,  height,  0,  buffSize, &data[offset] );
-      
+
       offset +=  buffSize;
       width  /= 2;
       height /= 2;
       if( width  == 0 ) width  = 1;
       if( height == 0 ) height = 1;
    }
-   
+
    glBindTexture(GL_TEXTURE_2D, 0);
-   
+
    return pGlTexture;
 }
 
@@ -190,7 +190,7 @@ void grSetRenderTarget(GrTexture *depth,GrTexture *color)
          if (depth)
          {
             glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_RENDERBUFFER, depth->textureIndex);
-         }         
+         }
       }
    }
 }
@@ -215,12 +215,12 @@ void grCopyToBackBuffer(GrTexture *src,int x, int y,int width,int height)
    if (!src)return;
    if (grGetMode() == OPENGL_MODE_32)
    {
-      grStateDepthStencil(DEPTH_STENCIL_OFF);    
+      grStateDepthStencil(DEPTH_STENCIL_OFF);
 
       glBindFramebuffer(GL_READ_FRAMEBUFFER, frameBufferIndex);
       glBindFramebuffer(GL_DRAW_FRAMEBUFFER, 0);
       glDrawBuffer(GL_BACK);
-      glBlitFramebuffer(0, 0, src->width, src->height, 0, 0, src->width, src->height, GL_COLOR_BUFFER_BIT, GL_NEAREST);      
+      glBlitFramebuffer(0, 0, src->width, src->height, 0, 0, src->width, src->height, GL_COLOR_BUFFER_BIT, GL_NEAREST);
    }
 }
 

@@ -27,7 +27,7 @@ ularge memoryMaximum(ularge min, ularge max)
     SDL_AtomicLock(&memoryLock);
 
     ularge allocated = max;
-    
+
     void *p = 0;
     while ( !p && allocated >= min )
     {
@@ -38,7 +38,7 @@ ularge memoryMaximum(ularge min, ularge max)
             SDL_AtomicUnlock(&memoryLock);
             return allocated;
         }
-        
+
         allocated = allocated >> 1;
     }
     SDL_AtomicUnlock(&memoryLock);
@@ -52,7 +52,7 @@ void* memoryAllocate(ularge size,int align)
    if (!ptr)
       CORE_ABORT("memory allocation failed", 0);
    SDL_AtomicUnlock(&memoryLock);
-   return ptr;   
+   return ptr;
 }
 
 void* memoryReallocate(void* ptr,ularge newsize)

@@ -62,7 +62,7 @@ int main(int argc,char ** argv)
     for (k=0;k<ndims;++k)
         nbytes *= nfft[k];
 
-#ifdef USE_SIMD        
+#ifdef USE_SIMD
     numffts /= 4;
     fprintf(stderr,"since SIMD implementation does 4 ffts at a time, numffts is being reduced to %d\n",numffts);
 #endif

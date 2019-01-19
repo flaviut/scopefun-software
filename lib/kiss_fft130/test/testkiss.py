@@ -35,11 +35,11 @@ elif datatype=='float':
 else:
     sys.stderr.write('unrecognized datatype %s\n' % datatype)
     sys.exit(1)
- 
+
 
 def dopack(x,cpx=1):
     x = numpy.reshape( x, ( numpy.size(x),) )
-    
+
     if cpx:
         s = ''.join( [ struct.pack(fmt*2,c.real,c.imag) for c in x ] )
     else:
@@ -89,7 +89,7 @@ def test_fft(ndims):
         xver = numpy.fft.rfftn(x)
     else:
         xver = numpy.fft.fftn(x)
-    
+
     open('/tmp/fftexp.dat','w').write(dopack( flatten(xver) , True ) )
 
     x2=dofft(x,doreal)
@@ -106,7 +106,7 @@ def test_fft(ndims):
         print 'x2=',x2
         print 'err',err
         sys.exit(1)
- 
+
 def dofft(x,isreal):
     dims=list( numpy.shape(x) )
     x = flatten(x)

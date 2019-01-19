@@ -34,7 +34,7 @@ def fft(f,inv):
             for q in range(1,p):
                 if inv:
                     t = e ** ( j*2*pi*k*q/n )
-                else:                    
+                else:
                     t = e ** ( -j*2*pi*k*q/n )
                 Fout[ k ] += scratch[q] * t
 
@@ -71,12 +71,12 @@ def real_fft( f,inv ):
     print 'fft output ', Fp
 
     F = [ complex(0,0) ] * ( N+1 )
-    
-    F[0] = complex( Fp[0].real + Fp[0].imag , 0 ) 
+
+    F[0] = complex( Fp[0].real + Fp[0].imag , 0 )
 
     for k in range(1,N/2+1):
         tw = e ** ( -j*pi*(.5+float(k)/N ) )
-        
+
         F1k = Fp[k] + Fp[N-k].conjugate()
         F2k = Fp[k] - Fp[N-k].conjugate()
         F2k *= tw
@@ -85,7 +85,7 @@ def real_fft( f,inv ):
         #F[N-k] = ( F1kp + e ** ( -j*pi*(.5+float(N-k)/N ) ) * F2kp ) * .5
         #F[N-k] = ( F1k.conjugate() - tw.conjugate() * F2k.conjugate() ) * .5
 
-    F[N] = complex( Fp[0].real - Fp[0].imag , 0 ) 
+    F[N] = complex( Fp[0].real - Fp[0].imag , 0 )
     return F
 
 def main():
@@ -123,7 +123,7 @@ def main():
 
 
 def make_random(dims=[1]):
-    import Numeric 
+    import Numeric
     res = []
     for i in range(dims[0]):
         if len(dims)==1:
@@ -165,7 +165,7 @@ def test_fftnd(ndims=3):
         print xver
         print x2
     print 'SNR=%sdB' % str( snr )
- 
+
 def myfftnd(x):
     import Numeric
     xf = flatten(x)
@@ -190,7 +190,7 @@ if __name__ == "__main__":
         nd = int(sys.argv[1])
     except:
         nd=None
-    if nd:    
+    if nd:
         test_fftnd( nd )
-    else:    
+    else:
         sys.exit(0)

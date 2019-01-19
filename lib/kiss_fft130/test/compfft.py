@@ -35,7 +35,7 @@ def main():
         fmt=opts.get('-t','f')
     except KeyError:
         sys.stderr.write("""
-        usage: compfft.py 
+        usage: compfft.py
         -n d1[,d2,d3...]  : FFT dimension(s)
         -u utilname : see sample_code/fftutil.c, default = ./kf_float
         -R : real-optimized version\n""")
@@ -78,14 +78,14 @@ def dopack(x,fmt,cpx):
         s = ''.join( [ struct.pack('ff',c.real,c.imag) for c in x ] )
     else:
         s = ''.join( [ struct.pack('f',c) for c in x ] )
-    return s 
+    return s
 
 def dounpack(x,fmt,cpx):
     uf = fmt * ( len(x) / 4 )
     s = struct.unpack(uf,x)
     if cpx:
         return array(s[::2]) + array( s[1::2] )*j
-    else:    
+    else:
         return array(s )
 
 if __name__ == "__main__":

@@ -76,7 +76,7 @@ int main(int argc,char ** argv)
 
     if ( isinverse )
         p = MAKEPLAN(nfft, in, out, FFTW_BACKWARD, FFTW_ESTIMATE);
-    else    
+    else
         p = MAKEPLAN(nfft, in, out, FFTW_FORWARD, FFTW_ESTIMATE);
 
     for (i=0;i<numffts;++i)

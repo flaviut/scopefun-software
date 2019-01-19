@@ -40,7 +40,7 @@ class OsciloskopDebug : public Debug
 		/** Constructor */
 		OsciloskopDebug( wxWindow* parent );
 	//// end generated class members
-	
+
 };
 
 #endif // __OsciloskopDebug__

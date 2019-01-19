@@ -74,7 +74,7 @@ void OsciloscopeThreadRenderer::fftCalculate( uint threadId, uint backward, uint
 }
 
 void OsciloscopeThreadRenderer::fftAmplitude(iint points,iint n, double *gAmp, double *gRe, double *gIm)
-{  
+{
   for(iint x = 0; x < n; x++)
   {
      gAmp[x] = gRe[x] * gRe[x] + gIm[x] * gIm[x];

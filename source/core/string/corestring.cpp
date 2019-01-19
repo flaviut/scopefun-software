@@ -121,20 +121,20 @@ int String::getLength() const
 char &String::index(int idx)
 {
    if( idx < 0 || idx >= length ) CORE_ABORT("idx out of range",0);
-   
+
    return data[idx];
 }
 const char &String::index(int idx) const
 {
    if( idx < 0 || idx >= length ) CORE_ABORT("idx out of range",0);
-   
+
    return data[idx];
 }
 int String::pos(const String &substr,int start) const
 {
    if( substr.getLength() == 0 ) return -1;
    if( start + substr.getLength() > length  ) return -1;
-   
+
    for(int a=start;a<length-substr.getLength()+1;a++)
    {
       if( memcmp( &data[a], (void*)substr.data, substr.getLength() )==0 ) return a;
@@ -145,7 +145,7 @@ int String::posReverse(const String &substr,int end) const
 {
    if( substr.getLength() == 0 ) return -1;
    if( end + substr.getLength() > length  ) return -1;
-   
+
    for(int a=length-1;a>=end;a--)
    {
       if( memcmp( &data[a], (void*)substr.data, substr.getLength() )==0 ) return a;
@@ -155,12 +155,12 @@ int String::posReverse(const String &substr,int end) const
 void String::insert(int pos,const String &str)
 {
    if( pos < 0 || pos + str.getLength() > MAX_STRING - 1 ) CORE_ABORT("pos out of range",0);
-   
+
    char  tmp[MAX_STRING] = {0};
    memcpy( &tmp[pos], &data[pos], (length - pos) );
    memcpy( &data[pos+str.getLength()], &tmp[pos], (length - pos) );
    memcpy( &data[pos], (void*)str.data, str.getLength() );
-   
+
    length += str.getLength();
    data[length] = 0;
 }
@@ -169,7 +169,7 @@ void String::remove(int pos,int cnt)
 {
    if( pos < 0 || pos > length ) CORE_ABORT("pos out of range",0);
    if( pos + cnt > length ) CORE_ABORT("pos + cnt out of range",0);
-   
+
    memcpy( &data[pos], &data[pos+cnt], (length - (pos + cnt - 1)) );
    length -= cnt;
 }

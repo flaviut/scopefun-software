@@ -29,9 +29,9 @@ uniform mat4 gVSFinalMatrix;
 	varying vec2 Tex;
 #else
 	#ifdef NORMAL
-		varying vec4 Normal;		
+		varying vec4 Normal;
 	#endif
-	
+
 	#ifdef COLOR
 		varying vec4 WorldPosition;
 	#endif
@@ -44,11 +44,11 @@ void main()
 		Tex = gl_MultiTexCoord0.st;
 	#else
 		#ifdef NORMAL
-			Normal        = gl_Normal.xyzz;			
+			Normal        = gl_Normal.xyzz;
 		#endif
-		
+
 		#ifdef COLOR
 			WorldPosition = gl_Vertex;
-		#endif		
+		#endif
 	#endif
 }

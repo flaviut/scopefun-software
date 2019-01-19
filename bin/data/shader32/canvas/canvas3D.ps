@@ -31,15 +31,15 @@ layout (std140) uniform PSCBuffer0 {
 
 uniform sampler2D gPSTexture0;
 
-#ifdef TEXTURE	
-	in vec2 Tex;	
+#ifdef TEXTURE
+	in vec2 Tex;
 #else
 	#ifdef NORMAL
 		in vec4 Normal;
 	#endif
 	#ifdef COLOR
 		in vec4 WorldPosition;
-	#endif	
+	#endif
 #endif
 
 out vec4 outColor;
@@ -50,25 +50,25 @@ vec4 lerp(vec4 a, vec4 b, float s)
 }
 
 void main()
-{	
+{
 	#ifdef TEXTURE
 		outColor = texture( gPSTexture0, Tex )*gPSColor;
 		if( outColor.a < 1 ) discard;
-	#else		
+	#else
 		vec4 color = gPSColor;
-						
+
 		#ifdef COLOR
 			vec4 black = vec4( 0.f, 0.f, 0.f, 1.f );
 			float  y   = WorldPosition.y + 0.5f;
 			color = lerp( black, lerp( black, gPSColor, y ), y);
 		#endif
-		
-		#ifdef LIGHT			
-			float dotProduct = dot( normalize(Normal.xyz), -normalize(gPSDirectionalLight.xyz) );			
-			color = vec4( color.xyz * dotProduct, 1.0 );			
+
+		#ifdef LIGHT
+			float dotProduct = dot( normalize(Normal.xyz), -normalize(gPSDirectionalLight.xyz) );
+			color = vec4( color.xyz * dotProduct, 1.0 );
 		#endif
-						
+
 		outColor   = color;
-		outColor.a = gPSColor.a;	
+		outColor.a = gPSColor.a;
 	#endif
 }

@@ -111,11 +111,11 @@ byte* GrStaticMesh::lock(uint bytes)
          bytes = meshSize;
       }
    }
-      
+
    lockedBytes  = bytes;
 
    lockedMemory = meshMemory + lockedOffset;
-  
+
    return lockedMemory;
 }
 
@@ -164,7 +164,7 @@ void GrStaticMesh::draw(GrVertexShader* vs,PrimitiveType type,uint numIndices,ui
       if( decl.element[a] )
          stride += Offset( decl.element[a]->elFormat );
    }
-  
+
    if (grGetMode() == OPENGL_MODE_32)
    {
       // vao
@@ -184,7 +184,7 @@ void GrStaticMesh::draw(GrVertexShader* vs,PrimitiveType type,uint numIndices,ui
    // define vertex data
    uint offset = 0;
    for(int a=0;a<decl.element.getCount();a++)
-   {      
+   {
       GrVertexElement* el = decl.element[a];
       uint dim = ConvertFormatToDim( el->elFormat );
 
@@ -195,8 +195,8 @@ void GrStaticMesh::draw(GrVertexShader* vs,PrimitiveType type,uint numIndices,ui
          dim = 4;
          format = GL_UNSIGNED_BYTE;
          normalized = GL_TRUE;
-      }       
-      else format = GL_FLOAT;      
+      }
+      else format = GL_FLOAT;
 
       switch( el->elType ) {
       case VERTEX_TYPE_BINORMAL:
@@ -227,14 +227,14 @@ void GrStaticMesh::draw(GrVertexShader* vs,PrimitiveType type,uint numIndices,ui
          break;
       case VERTEX_TYPE_POSITION:
          if (grGetMode() == OPENGL_MODE_21)
-         {           
+         {
             glVertexPointer(dim, format, stride, (GLvoid*)(startoffset + offset));
             glEnableClientState(GL_VERTEX_ARRAY);
          }
          else
          {
             glVertexAttribPointer(a, dim, format, normalized, stride, (GLvoid*)(startoffset + offset));
-         }         
+         }
          break;
       case VERTEX_TYPE_POSITIONT:
       case VERTEX_TYPE_PSIZE:
@@ -263,12 +263,12 @@ void GrStaticMesh::draw(GrVertexShader* vs,PrimitiveType type,uint numIndices,ui
    {
          glDisableVertexAttribArray(a);
    };
-   
+
    glBindBuffer(GL_ARRAY_BUFFER, 0);
 
    if (grGetMode() == OPENGL_MODE_32)
    {
-      glBindVertexArray(0);    
+      glBindVertexArray(0);
    }
 }
 

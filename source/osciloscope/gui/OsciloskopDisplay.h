@@ -73,7 +73,7 @@ class OsciloskopDisplay : public Display
 		/** Constructor */
 		OsciloskopDisplay( wxWindow* parent );
 	//// end generated class members
-	
+
 };
 
 #endif // __OsciloskopDisplay__

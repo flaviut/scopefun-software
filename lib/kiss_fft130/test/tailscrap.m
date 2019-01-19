@@ -1,5 +1,5 @@
 function maxabsdiff=tailscrap()
-% test code for circular convolution with the scrapped portion 
+% test code for circular convolution with the scrapped portion
 % at the tail of the buffer, rather than the front
 %
 % The idea is to rotate the zero-padded h (impulse response) buffer
@@ -11,7 +11,7 @@ nfft=256;
 h=rand(1,nh);
 x=rand(1,nfft);
 
-hpad=[ h(nh) zeros(1,nfft-nh) h(1:nh-1) ]; 
+hpad=[ h(nh) zeros(1,nfft-nh) h(1:nh-1) ];
 
 % baseline comparison
 y1 = filter(h,1,x);

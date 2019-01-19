@@ -39,16 +39,16 @@ vec4 lerp(vec4 a, vec4 b, float s)
 }
 
 void main()
-{	
+{
 	float shadow = texture( gPSTexture0, Tex ).x;
     vec4 colors[3];
 	colors[0] = vec4(0,0,1,1);
 	colors[1] = vec4(1,1,0,1);
 	colors[2] = vec4(1,0,0,1);
-	float index = (shadow < 0.5) ? 0.0 : 1.0;	
+	float index = (shadow < 0.5) ? 0.0 : 1.0;
     vec4 res1     = lerp(colors[0], colors[1], (shadow - index*0.5)/0.5);
     vec4 res2     = lerp(colors[1], colors[2], (shadow - index*0.5)/0.5);
     outColor        = lerp(res1, res2, index );
-	if( shadow == 0 ) outColor.a  = 0; 
+	if( shadow == 0 ) outColor.a  = 0;
 	else outColor.a  = 1;
 }

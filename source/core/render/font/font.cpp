@@ -68,7 +68,7 @@ int FontManager::getWidth(uint threadid,String &text) const
          if(c<text.getLength()-2)
          {
             ushort next = text[c+1];
-          
+
             FontKerningPair Pair;
             Pair.first   = ch;
             Pair.second  = next;
@@ -104,33 +104,33 @@ void FontManager::writeText3d(uint threadId,Matrix4x4 &final,float x,float y,flo
    {
       ushort                ch = (ushort)text[c];
       CharacterDescriptor Desc = Chars[ch];
-  
+
       float xoffset = (float(Desc.XOffset)/float(CharSet.Width)  )*size*scaleX;
       float yoffset = (float(Desc.YOffset)/float(CharSet.Height) )*size*scaleY;
       float  width  = (float(Desc.Width)/float(CharSet.Width) )*size*scaleX;
       float  height = (float(Desc.Height)/float(CharSet.Height) )*size*scaleY;
-    
+
       Vector4 vOffsetX(xoffset);
       Vector4 vOffsetY(yoffset);
 
       Vector4 upperleft;
       upperleft = pos       + right*vOffsetX;
       upperleft = upperleft - up*vOffsetY;
-  
+
       Vector4 vWidth(width);
       Vector4 vHeight(height);
-    
+
       Vector4 vec0 = upperleft;
       Vector4 vec1 = upperleft - up*vHeight;
       Vector4 vec2 = upperleft - up*vHeight;
               vec2 = vec2      + right*vWidth;
       Vector4 vec3 = upperleft + right*vWidth;
-   
+
       float srcleft   = float(Desc.x)/float(CharSet.Width);
       float srctop    = float(Desc.y)/float(CharSet.Height);
       float srcright  = float(Desc.x + Desc.Width) /float(CharSet.Width);
       float srcbottom = float(Desc.y + Desc.Height)/float(CharSet.Height);
-  
+
       float u0 = srcleft;
       float v0 = srctop;
       float u1 = srcleft;
@@ -139,7 +139,7 @@ void FontManager::writeText3d(uint threadId,Matrix4x4 &final,float x,float y,flo
       float v2 = srcbottom;
       float u3 = srcright;
       float v3 = srctop;
-  
+
       PosUv3d pos0( vec0.x, vec0.y, vec0.z, 1.f, u0, v0 );
       PosUv3d pos1( vec1.x, vec1.y, vec1.z, 1.f, u1, v1 );
       PosUv3d pos2( vec2.x, vec2.y, vec2.z, 1.f, u2, v2 );
@@ -154,7 +154,7 @@ void FontManager::writeText3d(uint threadId,Matrix4x4 &final,float x,float y,flo
          if(c<count-2)
          {
             ushort next = text[c+1];
-  
+
             FontKerningPair Pair;
             Pair.first   = ch;
             Pair.second  = next;
@@ -188,32 +188,32 @@ void FontManager::writeText(uint threadId, int x,int y,String text,int color)
 
    pCanvas2d->beginBatch(threadId, CANVAS2D_BATCH_RECTANGLEUV,text.getLength());
 
-  
+
 
    for(int c=0;c<text.getLength();c++)
    {
       ushort                  ch = text[c];
       CharacterDescriptor Desc = Chars[ch];
-  
+
       Vector4 min = Vector4( float(x + Desc.XOffset*size),
                                float(y + Desc.YOffset*size),
                                float(Desc.x)/float(CharSet.Width),
                                float(Desc.y)/float(CharSet.Height) );
-    
+
       Vector4 max = Vector4( float(x + Desc.XOffset*size + Desc.Width*size),
                                float(y + Desc.YOffset*size + Desc.Height*size),
                                float(Desc.x + Desc.Width)/float(CharSet.Width),
                                float(Desc.y + Desc.Height)/float(CharSet.Height) );
-   
+
       pCanvas2d->bRectangleUV(threadId, min, max );
-   
+
       if( kerningOnOff )
       {
          int kerning = 0;
          if(c<text.getLength()-2)
          {
             ushort next = text[c+1];
-          
+
             FontKerningPair Pair;
             Pair.first   = ch;
             Pair.second  = next;
@@ -240,7 +240,7 @@ int FontManager::start()
    FORMAT_BUFFER();
    FORMAT_PATH("data/font/test_0.dds");
    pTexture = grCreateTexture( formatBuffer );
- 
+
    SDL_RWops* ctx = 0;
    FORMAT_PATH("data/font/test.fnt");
    ctx = SDL_RWFromFile( formatBuffer, "rb" );

@@ -46,7 +46,7 @@ class OsciloskopInfo : public Info
 		/** Constructor */
 		OsciloskopInfo( wxWindow* parent );
 	//// end generated class members
-	
+
 };
 
 #endif // __OsciloskopInfo__

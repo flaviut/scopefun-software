@@ -50,7 +50,7 @@ void OsciloskopThermal::m_sliderHeatOnScroll( wxScrollEvent& event )
    int   ivalue = m_sliderHeat->GetValue();
    float fvalue = (float(ivalue) / 100.f)*MAX_HEAT;
    pOsciloscope->window.thermal.heating = fvalue;
-   m_textCtrlHeating->SetValue(floatToString(fvalue));   
+   m_textCtrlHeating->SetValue(floatToString(fvalue));
 }
 
 void OsciloskopThermal::m_textCtrlCoolingOnTextEnter( wxCommandEvent& event )

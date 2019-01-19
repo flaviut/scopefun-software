@@ -52,7 +52,7 @@ class OsciloskopThermal : public Thermal
 		/** Constructor */
 		OsciloskopThermal( wxWindow* parent );
 	//// end generated class members
-	
+
 };
 
 #endif // __OsciloskopThermal__

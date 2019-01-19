@@ -79,7 +79,7 @@ kiss_fastfir_cfg kiss_fastfir_alloc(
         nfft=*pnfft;
 
     if (nfft<=0) {
-        /* determine fft size as next power of two at least 2x 
+        /* determine fft size as next power of two at least 2x
          the impulse response length*/
         i=n_imp_resp-1;
         nfft=2;
@@ -89,7 +89,7 @@ kiss_fastfir_cfg kiss_fastfir_alloc(
 #ifdef MIN_FFT_LEN
         if ( nfft < MIN_FFT_LEN )
             nfft=MIN_FFT_LEN;
-#endif        
+#endif
     }
     if (pnfft)
         *pnfft = nfft;
@@ -101,17 +101,17 @@ kiss_fastfir_cfg kiss_fastfir_alloc(
 #endif
     /*fftcfg*/
     FFT_ALLOC (nfft, 0, NULL, &len_fftcfg);
-    memneeded += len_fftcfg;  
+    memneeded += len_fftcfg;
     /*ifftcfg*/
     FFT_ALLOC (nfft, 1, NULL, &len_ifftcfg);
-    memneeded += len_ifftcfg;  
+    memneeded += len_ifftcfg;
     /* tmpbuf */
     memneeded += sizeof(kffsamp_t) * nfft;
     /* fir_freq_resp */
     memneeded += sizeof(kiss_fft_cpx) * n_freq_bins;
     /* freqbuf */
     memneeded += sizeof(kiss_fft_cpx) * n_freq_bins;
-    
+
     if (lenmem == NULL) {
         st = (kiss_fastfir_cfg) malloc (memneeded);
     } else {
@@ -138,7 +138,7 @@ kiss_fastfir_cfg kiss_fastfir_alloc(
 
     st->freqbuf = (kiss_fft_cpx*)ptr;
     ptr += sizeof(kiss_fft_cpx) * n_freq_bins;
-    
+
     st->fir_freq_resp = (kiss_fft_cpx*)ptr;
     ptr += sizeof(kiss_fft_cpx) * n_freq_bins;
 
@@ -146,7 +146,7 @@ kiss_fastfir_cfg kiss_fastfir_alloc(
     FFT_ALLOC (nfft,1,st->ifftcfg , &len_ifftcfg);
 
     memset(st->tmpbuf,0,sizeof(kffsamp_t)*nfft);
-    /*zero pad in the middle to left-rotate the impulse response 
+    /*zero pad in the middle to left-rotate the impulse response
       This puts the scrap samples at the end of the inverse fft'd buffer */
     st->tmpbuf[0] = imp_resp[ n_imp_resp - 1 ];
     for (i=0;i<n_imp_resp - 1; ++i) {
@@ -177,7 +177,7 @@ static void fastconv1buf(const kiss_fastfir_cfg st,const kffsamp_t * in,kffsamp_
      that of the fir filter*/
     FFTFWD( st->fftcfg, in , st->freqbuf );
     for ( i=0; i<st->n_freq_bins; ++i ) {
-        kiss_fft_cpx tmpsamp; 
+        kiss_fft_cpx tmpsamp;
         C_MUL(tmpsamp,st->freqbuf[i],st->fir_freq_resp[i]);
         st->freqbuf[i] = tmpsamp;
     }
@@ -191,7 +191,7 @@ static void fastconv1buf(const kiss_fastfir_cfg st,const kffsamp_t * in,kffsamp_
    n-retval samples should be copied to the front of the next input buffer */
 static size_t kff_nocopy(
         kiss_fastfir_cfg st,
-        const kffsamp_t * inbuf, 
+        const kffsamp_t * inbuf,
         kffsamp_t * outbuf,
         size_t n)
 {
@@ -218,9 +218,9 @@ size_t kff_flush(kiss_fastfir_cfg st,const kffsamp_t * inbuf,kffsamp_t * outbuf,
     zpad = st->nfft - n;
     memset(st->tmpbuf,0,sizeof(kffsamp_t)*st->nfft );
     memcpy(st->tmpbuf,inbuf,sizeof(kffsamp_t)*n );
-    
+
     fastconv1buf(st,st->tmpbuf,st->tmpbuf);
-    
+
     memcpy(outbuf,st->tmpbuf,sizeof(kffsamp_t)*( st->ngood - zpad ));
     return ntmp + st->ngood - zpad;
 }
@@ -268,7 +268,7 @@ void direct_file_filter(
     size_t k, tap;
 #ifndef REAL_FASTFIR
     kffsamp_t tmp;
-#endif    
+#endif
 
     nbuf = 4096;
     buf = (kffsamp_t *) malloc ( sizeof (kffsamp_t) * nbuf);
@@ -304,15 +304,15 @@ void direct_file_filter(
 #else
 # ifdef USE_SIMD
             outval.r = outval.i = _mm_set1_ps(0);
-#else            
+#else
             outval.r = outval.i = 0;
-#endif            
+#endif
             for (tap = oldestlag; tap < nlag; ++tap){
                 C_MUL(tmp,circbuf[tap],*tmph);
                 --tmph;
                 C_ADDTO(outval,tmp);
             }
-            
+
             for (tap = 0; tap < oldestlag; ++tap) {
                 C_MUL(tmp,circbuf[tap],*tmph);
                 --tmph;
@@ -359,11 +359,11 @@ void do_file_filter(
     cfg=kiss_fastfir_alloc(imp_resp,n_imp_resp,&nfft,0,0);
 
     /* use length to minimize buffer shift*/
-    n_samps_buf = 8*4096/sizeof(kffsamp_t); 
+    n_samps_buf = 8*4096/sizeof(kffsamp_t);
     n_samps_buf = nfft + 4*(nfft-n_imp_resp+1);
 
     if (verbose) fprintf(stderr,"bufsize=%d\n",(int)(sizeof(kffsamp_t)*n_samps_buf) );
-     
+
 
     /*allocate space and initialize pointers */
     inbuf = (kffsamp_t*)malloc(sizeof(kffsamp_t)*n_samps_buf);
@@ -456,7 +456,7 @@ int main(int argc,char**argv)
         fprintf(stderr,"short read on filter file\n");
 
     fclose(filtfile);
- 
+
     if (use_direct)
         direct_file_filter( fin, fout, h,nh);
     else

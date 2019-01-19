@@ -33,16 +33,16 @@ double two_tone_test( int nfft, int bin1,int bin2)
 #ifdef USE_SIMD
         tbuf[i] = _mm_set1_ps( (maxrange>>1)*cos(f1*i)
                              + (maxrange>>1)*cos(f2*i) );
-#else        
+#else
         tbuf[i] =  (maxrange>>1)*cos(f1*i)
                  + (maxrange>>1)*cos(f2*i);
-#endif        
+#endif
     }
 
     kiss_fftr(cfg, tbuf, kout);
 
     for (i=0;i < (nfft/2+1);++i) {
-#ifdef USE_SIMD        
+#ifdef USE_SIMD
         double tmpr = (double)*(float*)&kout[i].r / (double)maxrange;
         double tmpi = (double)*(float*)&kout[i].i / (double)maxrange;
 #else
@@ -54,7 +54,7 @@ double two_tone_test( int nfft, int bin1,int bin2)
             mag2 *= 2; /* all bins except DC and Nyquist have symmetric counterparts implied*/
 
         /* if there is power in one of the expected bins, it is signal, otherwise noise*/
-        if ( i!=bin1 && i != bin2 ) 
+        if ( i!=bin1 && i != bin2 )
             noisepow += mag2;
         else
             sigpow += mag2;

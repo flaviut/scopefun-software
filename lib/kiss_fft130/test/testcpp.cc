@@ -27,7 +27,7 @@ void dotest(int nfft)
     vector<cpx_type> inbuf(nfft);
     vector<cpx_type> outbuf(nfft);
     for (int k=0;k<nfft;++k)
-        inbuf[k]= cpx_type( 
+        inbuf[k]= cpx_type(
                 (T)(rand()/(double)RAND_MAX - .5),
                 (T)(rand()/(double)RAND_MAX - .5) );
     fft.transform( &inbuf[0] , &outbuf[0] );
@@ -38,11 +38,11 @@ void dotest(int nfft)
         complex<long double> acc = 0;
         long double phinc = 2*k0* M_PIl / nfft;
         for (int k1=0;k1<nfft;++k1) {
-            complex<long double> x(inbuf[k1].real(),inbuf[k1].imag()); 
+            complex<long double> x(inbuf[k1].real(),inbuf[k1].imag());
             acc += x * exp( complex<long double>(0,-k1*phinc) );
         }
         totalpower += norm(acc);
-        complex<long double> x(outbuf[k0].real(),outbuf[k0].imag()); 
+        complex<long double> x(outbuf[k0].real(),outbuf[k0].imag());
         complex<long double> dif = acc - x;
         difpower += norm(dif);
     }

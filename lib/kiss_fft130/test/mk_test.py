@@ -11,14 +11,14 @@ def randvec(n,iscomplex):
         return [
                 int(random.uniform(-32768,32767) ) + j*int(random.uniform(-32768,32767) )
                 for i in range(n) ]
-    else:                
+    else:
         return [ int(random.uniform(-32768,32767) ) for i in range(n) ]
-    
+
 def c_format(v,round=0):
     if round:
-        return ','.join( [ '{%d,%d}' %(int(c.real),int(c.imag) ) for c in v ] ) 
+        return ','.join( [ '{%d,%d}' %(int(c.real),int(c.imag) ) for c in v ] )
     else:
-        s= ','.join( [ '{%.60f ,%.60f }' %(c.real,c.imag) for c in v ] ) 
+        s= ','.join( [ '{%.60f ,%.60f }' %(c.real,c.imag) for c in v ] )
         return re.sub(r'\.?0+ ',' ',s)
 
 def test_cpx( n,inverse ,short):
@@ -33,7 +33,7 @@ def test_cpx( n,inverse ,short):
         tvecout = FFT.inverse_fft(v)
         if short:
             scale = 1
-        else:            
+        else:
             scale = len(v)
     else:
         tvecout = FFT.fft(v)
@@ -58,7 +58,7 @@ def test_cpx( n,inverse ,short):
             exit_code++;
         free(cfg);
     }
-#undef NFFT    
+#undef NFFT
 """
     return s
 
@@ -71,10 +71,10 @@ double snr_compare( kiss_fft_cpx * test_vec_out,kiss_fft_cpx * testbuf, int n)
     int k;
     double sigpow,noisepow,err,snr,scale=0;
     kiss_fft_cpx err;
-    sigpow = noisepow = .000000000000000000000000000001; 
+    sigpow = noisepow = .000000000000000000000000000001;
 
     for (k=0;k<n;++k) {
-        sigpow += test_vec_out[k].r * test_vec_out[k].r + 
+        sigpow += test_vec_out[k].r * test_vec_out[k].r +
                   test_vec_out[k].i * test_vec_out[k].i;
         C_SUB(err,test_vec_out[k],testbuf[k].r);
         noisepow += err.r * err.r + err.i + err.i;

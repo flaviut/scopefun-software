@@ -48,7 +48,7 @@ AddReg=Dev_AddReg
 HKR,,DeviceInterfaceGUIDs,0x10000,"{9f543223-cede-4fa3-b376-a25ce9a30e74}"
 
 ; [DestinationDirs]
-; If your INF needs to copy files, you must not use the DefaultDestDir directive here.  
+; If your INF needs to copy files, you must not use the DefaultDestDir directive here.
 ; You must explicitly reference all file-list-section names in this section.
 
 ; =================== Strings ===================

@@ -61,7 +61,7 @@ class OsciloskopSoftwareGenerator : public SoftwareGenerator
 		/** Constructor */
 		OsciloskopSoftwareGenerator( wxWindow* parent );
 	//// end generated class members
-	
+
 };
 
 #endif // __OsciloskopSoftwareGenerator__

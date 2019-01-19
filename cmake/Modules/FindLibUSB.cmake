@@ -2,7 +2,7 @@
 # This module will find libusb as published by
 #  http://libusb.sf.net and
 #  http://libusb-win32.sf.net
-# 
+#
 # It will use PkgConfig if present and supported, else search
 # it on its own. If the LibUSB_ROOT_DIR environment variable
 # is defined, it will be used as base path.

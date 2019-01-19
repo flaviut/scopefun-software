@@ -51,8 +51,8 @@ def main():
     opts=dict(opts)
 
     siglen = int(opts.get('-l',1e4 ) )
-    hlen =50 
- 
+    hlen =50
+
     nfft = int(opts.get('-n',128) )
     usereal = opts.has_key('-r')
 
@@ -88,8 +88,8 @@ def utilfastfilter(sig,h,nfft,usereal):
     import os
     open( 'sig.dat','w').write( compfft.dopack(sig,'f',not usereal) )
     open( 'h.dat','w').write( compfft.dopack(h,'f',not usereal) )
-    if usereal: 
-        util = './fastconvr' 
+    if usereal:
+        util = './fastconvr'
     else:
         util = './fastconv'
     cmd = 'time %s -n %d -i sig.dat -h h.dat -o out.dat' % (util, nfft)

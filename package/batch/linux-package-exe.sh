@@ -26,14 +26,14 @@ sudo gzip --best ${PWD}/../tmp/scopefun-linux/usr/share/doc/scopefun-linux/chang
 echo "... attributes ..."
 function attributes() {
 cd ${PWD}/../tmp
-sudo find ./scopefun-linux -type d -print0 | xargs -0 sudo chmod 755 
-sudo find ./scopefun-linux -type f -print0 | xargs -0 sudo chmod 644 
+sudo find ./scopefun-linux -type d -print0 | xargs -0 sudo chmod 755
+sudo find ./scopefun-linux -type f -print0 | xargs -0 sudo chmod 644
 sudo chmod +x ./scopefun-linux/lib/udev/rules.d/51-oscilloscope.rules
 sudo chmod +x ./scopefun-linux/usr/bin/oscilloscope
 sudo chown -R root: ./scopefun-linux
 }
 attributes
-echo "... package ..." 
+echo "... package ..."
 function package() {
 cd ${PWD}/../tmp
 sudo fakeroot dpkg-deb --build scopefun-linux
@@ -51,4 +51,4 @@ lintian scopefun-linux$1.deb
 }
 verify
 echo "... finished ..."
-	
+

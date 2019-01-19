@@ -37,15 +37,15 @@ void OsciloskopHardwareGenerator::HardwareGeneratorOnInitDialog( wxInitDialogEve
    FORMAT( "%f", pOsciloscope->window.hardwareGenerator.frequency0 );
    m_comboBoxType->SetSelection( pOsciloscope->window.hardwareGenerator.type0 );
    m_textCtrlFrequency->SetValue( wxString::FromAscii( formatBuffer ) );
-   
+
    FORMAT("%f", double(pOsciloscope->window.hardwareGenerator.voltage0)*pOsciloscope->settings.generatorVoltagePerStep);
    m_textCtrlVoltage0->SetValue(wxString::FromAscii(formatBuffer));
    m_sliderVoltage->SetValue(pOsciloscope->window.hardwareGenerator.voltage0);
-   
+
    FORMAT("%f", double(pOsciloscope->window.hardwareGenerator.offset0)*pOsciloscope->settings.generatorVoltagePerStep);
    m_textCtrlOffset0->SetValue(wxString::FromAscii(formatBuffer));
    m_sliderOffset->SetValue(pOsciloscope->window.hardwareGenerator.offset0);
-   
+
    FORMAT("%d", pOsciloscope->window.hardwareGenerator.squareDuty0);
    m_textCtrlSquareDuty0->SetValue(wxString::FromAscii(formatBuffer));
    m_sliderSquareDuty->SetValue(pOsciloscope->window.hardwareGenerator.squareDuty0);
@@ -234,7 +234,7 @@ void OsciloskopHardwareGenerator::m_spinBtnCh0VoltOnSpinDown(wxSpinEvent& event)
 void OsciloskopHardwareGenerator::m_spinBtnCh0OffsetOnSpinUp(wxSpinEvent& event)
 {
    pOsciloscope->window.hardwareGenerator.offset0++;
-   pOsciloscope->window.hardwareGenerator.offset0 = min(pOsciloscope->window.hardwareGenerator.offset0, 2048);   
+   pOsciloscope->window.hardwareGenerator.offset0 = min(pOsciloscope->window.hardwareGenerator.offset0, 2048);
    m_textCtrlOffset0->SetValue(floatToString( double(pOsciloscope->window.hardwareGenerator.offset0)*pOsciloscope->settings.generatorVoltagePerStep));
    m_sliderOffset->SetValue(pOsciloscope->window.hardwareGenerator.offset0);
 

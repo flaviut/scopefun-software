@@ -44,7 +44,7 @@ bool InputManager::isMouse(uint key)
 
 bool InputManager::isClick(uint key)
 {
-   return mouseClick & SDL_BUTTON(key);   
+   return mouseClick & SDL_BUTTON(key);
 }
 
 bool InputManager::isKey(uint key)

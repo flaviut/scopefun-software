@@ -8,7 +8,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-    
+
 typedef struct kiss_fftndr_state *kiss_fftndr_cfg;
 
 
@@ -16,7 +16,7 @@ kiss_fftndr_cfg  kiss_fftndr_alloc(const int *dims,int ndims,int inverse_fft,voi
 /*
  dims[0] must be even
 
- If you don't care to allocate space, use mem = lenmem = NULL 
+ If you don't care to allocate space, use mem = lenmem = NULL
 */
 
 

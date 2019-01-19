@@ -81,7 +81,7 @@ void Camera::setOrthographic(float fwidth,float fheight,float znear,float zfar)
 void Camera::lookAt(Vector4 &pos,Vector4 &lookat,Vector4 &up)
 {
    Vector4 EyeDirection = lookat-pos;
-   lookTo(pos, EyeDirection, up);  
+   lookTo(pos, EyeDirection, up);
 }
 
 void Camera::lookTo(Vector4 &pos,Vector4 &dir,Vector4 &up)
@@ -89,7 +89,7 @@ void Camera::lookTo(Vector4 &pos,Vector4 &dir,Vector4 &up)
    Vector4 look  = vecNormalize3d(dir);
    Vector4 right = vecNormalize3d(vecCross3d(up, look));
            up    = vecNormalize3d(vecCross3d(look, right));
-   
+
    View.RowX() = Vector4(right.x, right.y, right.z, 0);
    View.RowY() = Vector4(   up.x,    up.y,    up.z, 0);
    View.RowZ() = Vector4( look.x,  look.y,  look.z, 0);
@@ -119,7 +119,7 @@ void CameraManager::nextCamera()
    {
       idx++;
       idx = clamp( idx, 0, sCamera.getCount()-1 );
-  
+
       pActiveCamera = sCamera.index(idx);
    }
 }
@@ -131,7 +131,7 @@ void CameraManager::previusCamera()
    {
       idx--;
       idx = clamp( idx, 0, sCamera.getCount()-1 );
-  
+
       pActiveCamera = sCamera.index(idx);
    }
 }

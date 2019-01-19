@@ -48,10 +48,10 @@
 ///////////////////////////////////////////////////////////////////////////////
 /// Class Osciloskop
 ///////////////////////////////////////////////////////////////////////////////
-class Osciloskop : public wxFrame 
+class Osciloskop : public wxFrame
 {
 	private:
-	
+
 	protected:
 		wxMenuBar* m_menubar1;
 		wxMenu* m_menu1;
@@ -280,7 +280,7 @@ class Osciloskop : public wxFrame
 		wxStaticText* m_staticText1011121;
 		wxStaticLine* m_staticline131121;
 		wxGauge* m_gauge1;
-		
+
 		// Virtual event handlers, overide them in your derived class
 		virtual void onActivate( wxActivateEvent& event ) { event.Skip(); }
 		virtual void onActivateApp( wxActivateEvent& event ) { event.Skip(); }
@@ -451,25 +451,25 @@ class Osciloskop : public wxFrame
 		virtual void m_comboBoxBit4OnCombobox( wxCommandEvent& event ) { event.Skip(); }
 		virtual void m_comboBoxBit2OnCombobox( wxCommandEvent& event ) { event.Skip(); }
 		virtual void m_comboBoxBit0OnCombobox( wxCommandEvent& event ) { event.Skip(); }
-		
-	
+
+
 	public:
 		wxMenu* m_menu6;
 		wxMenuItem* m_menuItemDebug;
-		
+
 		Osciloskop( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("Oscilloscope"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 900,900 ), long style = wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL );
-		
+
 		~Osciloskop();
-	
+
 };
 
 ///////////////////////////////////////////////////////////////////////////////
 /// Class SoftwareGenerator
 ///////////////////////////////////////////////////////////////////////////////
-class SoftwareGenerator : public wxDialog 
+class SoftwareGenerator : public wxDialog
 {
 	private:
-	
+
 	protected:
 		wxNotebook* m_notebook3;
 		wxPanel* m_panel14;
@@ -505,7 +505,7 @@ class SoftwareGenerator : public wxDialog
 		wxButton* m_buttonOk;
 		wxButton* m_buttonDefault;
 		wxButton* m_buttonCancel;
-		
+
 		// Virtual event handlers, overide them in your derived class
 		virtual void SoftwareGeneratorOnInitDialog( wxInitDialogEvent& event ) { event.Skip(); }
 		virtual void m_comboBoxType0OnCombobox( wxCommandEvent& event ) { event.Skip(); }
@@ -529,22 +529,22 @@ class SoftwareGenerator : public wxDialog
 		virtual void m_buttonOkOnButtonClick( wxCommandEvent& event ) { event.Skip(); }
 		virtual void m_buttonDefaultOnButtonClick( wxCommandEvent& event ) { event.Skip(); }
 		virtual void m_buttonCancelOnButtonClick( wxCommandEvent& event ) { event.Skip(); }
-		
-	
+
+
 	public:
-		
-		SoftwareGenerator( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("SoftwareGenerator"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 422,426 ), long style = wxDEFAULT_DIALOG_STYLE ); 
+
+		SoftwareGenerator( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("SoftwareGenerator"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 422,426 ), long style = wxDEFAULT_DIALOG_STYLE );
 		~SoftwareGenerator();
-	
+
 };
 
 ///////////////////////////////////////////////////////////////////////////////
 /// Class HardwareGenerator
 ///////////////////////////////////////////////////////////////////////////////
-class HardwareGenerator : public wxDialog 
+class HardwareGenerator : public wxDialog
 {
 	private:
-	
+
 	protected:
 		wxNotebook* m_notebook3;
 		wxPanel* m_panel14;
@@ -596,7 +596,7 @@ class HardwareGenerator : public wxDialog
 		wxButton* m_buttonOk;
 		wxButton* m_buttonDefault;
 		wxButton* m_buttonCancel;
-		
+
 		// Virtual event handlers, overide them in your derived class
 		virtual void HardwareGeneratorOnInitDialog( wxInitDialogEvent& event ) { event.Skip(); }
 		virtual void m_comboBoxTypeOnCombobox( wxCommandEvent& event ) { event.Skip(); }
@@ -640,22 +640,22 @@ class HardwareGenerator : public wxDialog
 		virtual void m_buttonOkOnButtonClick( wxCommandEvent& event ) { event.Skip(); }
 		virtual void m_buttonDefaultOnButtonClick( wxCommandEvent& event ) { event.Skip(); }
 		virtual void m_buttonCancelOnButtonClick( wxCommandEvent& event ) { event.Skip(); }
-		
-	
+
+
 	public:
-		
-		HardwareGenerator( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("HardwareGenerator"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 588,425 ), long style = wxDEFAULT_DIALOG_STYLE ); 
+
+		HardwareGenerator( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("HardwareGenerator"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 588,425 ), long style = wxDEFAULT_DIALOG_STYLE );
 		~HardwareGenerator();
-	
+
 };
 
 ///////////////////////////////////////////////////////////////////////////////
 /// Class Thermal
 ///////////////////////////////////////////////////////////////////////////////
-class Thermal : public wxDialog 
+class Thermal : public wxDialog
 {
 	private:
-	
+
 	protected:
 		wxStaticText* m_staticText52;
 		wxTextCtrl* m_textCtrlHeating;
@@ -670,7 +670,7 @@ class Thermal : public wxDialog
 		wxButton* m_buttonOk;
 		wxButton* m_buttonDefault;
 		wxButton* m_buttonCancel;
-		
+
 		// Virtual event handlers, overide them in your derived class
 		virtual void ThermalOnActivate( wxActivateEvent& event ) { event.Skip(); }
 		virtual void m_textCtrlHeatingOnTextEnter( wxCommandEvent& event ) { event.Skip(); }
@@ -685,22 +685,22 @@ class Thermal : public wxDialog
 		virtual void m_buttonOkOnButtonClick( wxCommandEvent& event ) { event.Skip(); }
 		virtual void m_buttonDefaultOnButtonClick( wxCommandEvent& event ) { event.Skip(); }
 		virtual void m_buttonCancelOnButtonClick( wxCommandEvent& event ) { event.Skip(); }
-		
-	
+
+
 	public:
-		
-		Thermal( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("Thermal"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 512,256 ), long style = wxDEFAULT_DIALOG_STYLE ); 
+
+		Thermal( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("Thermal"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 512,256 ), long style = wxDEFAULT_DIALOG_STYLE );
 		~Thermal();
-	
+
 };
 
 ///////////////////////////////////////////////////////////////////////////////
 /// Class Display
 ///////////////////////////////////////////////////////////////////////////////
-class Display : public wxDialog 
+class Display : public wxDialog
 {
 	private:
-	
+
 	protected:
 		wxCheckBox* m_checkBoxUnits;
 		wxCheckBox* m_checkBoxAxis;
@@ -759,7 +759,7 @@ class Display : public wxDialog
 		wxButton* m_buttonOk;
 		wxButton* m_buttonDefault;
 		wxButton* m_buttonCancel;
-		
+
 		// Virtual event handlers, overide them in your derived class
 		virtual void DisplayOnInitDialog( wxInitDialogEvent& event ) { event.Skip(); }
 		virtual void m_checkBoxUnitsOnCheckBox( wxCommandEvent& event ) { event.Skip(); }
@@ -795,22 +795,22 @@ class Display : public wxDialog
 		virtual void m_buttonOkOnButtonClick( wxCommandEvent& event ) { event.Skip(); }
 		virtual void m_buttonDefaultOnButtonClick( wxCommandEvent& event ) { event.Skip(); }
 		virtual void m_buttonCancelOnButtonClick( wxCommandEvent& event ) { event.Skip(); }
-		
-	
+
+
 	public:
-		
-		Display( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("Display"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( -1,-1 ), long style = wxDEFAULT_DIALOG_STYLE ); 
+
+		Display( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("Display"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( -1,-1 ), long style = wxDEFAULT_DIALOG_STYLE );
 		~Display();
-	
+
 };
 
 ///////////////////////////////////////////////////////////////////////////////
 /// Class Measure
 ///////////////////////////////////////////////////////////////////////////////
-class Measure : public wxDialog 
+class Measure : public wxDialog
 {
 	private:
-	
+
 	protected:
 		wxCheckBox* m_checkBoxAutoClear;
 		wxCheckBox* m_checkBoxAutoClearTrigger;
@@ -835,7 +835,7 @@ class Measure : public wxDialog
 		wxButton* m_buttonOk;
 		wxButton* m_buttonDefault;
 		wxButton* m_buttonCancel;
-		
+
 		// Virtual event handlers, overide them in your derived class
 		virtual void DisplayOnInitDialog( wxInitDialogEvent& event ) { event.Skip(); }
 		virtual void m_checkBoxAutoClearOnCheckBox( wxCommandEvent& event ) { event.Skip(); }
@@ -883,8 +883,8 @@ class Measure : public wxDialog
 		virtual void m_buttonOkOnButtonClick( wxCommandEvent& event ) { event.Skip(); }
 		virtual void m_buttonDefaultOnButtonClick( wxCommandEvent& event ) { event.Skip(); }
 		virtual void m_buttonCancelOnButtonClick( wxCommandEvent& event ) { event.Skip(); }
-		
-	
+
+
 	public:
 		wxTextCtrl* m_textCtrlX0;
 		wxChoice* m_choiceX0;
@@ -904,19 +904,19 @@ class Measure : public wxDialog
 		wxTextCtrl* m_textCtrlFFT1;
 		wxChoice* m_choiceFFT1;
 		wxSlider* m_sliderFFT1;
-		
-		Measure( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("Measure"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( -1,-1 ), long style = wxDEFAULT_DIALOG_STYLE ); 
+
+		Measure( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("Measure"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( -1,-1 ), long style = wxDEFAULT_DIALOG_STYLE );
 		~Measure();
-	
+
 };
 
 ///////////////////////////////////////////////////////////////////////////////
 /// Class Info
 ///////////////////////////////////////////////////////////////////////////////
-class Info : public wxDialog 
+class Info : public wxDialog
 {
 	private:
-	
+
 	protected:
 		wxNotebook* m_notebook5;
 		wxPanel* m_panel11;
@@ -947,40 +947,40 @@ class Info : public wxDialog
 		wxTextCtrl* m_textCtrlDateTime;
 		wxStaticBitmap* m_bitmapLogo;
 		wxButton* m_buttonOk;
-		
+
 		// Virtual event handlers, overide them in your derived class
 		virtual void ThermalOnActivate( wxActivateEvent& event ) { event.Skip(); }
 		virtual void InfoOnClose( wxCloseEvent& event ) { event.Skip(); }
 		virtual void m_textCtrlGlewOnTextURL( wxTextUrlEvent& event ) { event.Skip(); }
 		virtual void m_buttonOkOnButtonClick( wxCommandEvent& event ) { event.Skip(); }
-		
-	
+
+
 	public:
-		
-		Info( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("About"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 575,575 ), long style = wxDEFAULT_DIALOG_STYLE|wxRESIZE_BORDER|wxSTAY_ON_TOP ); 
+
+		Info( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("About"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 575,575 ), long style = wxDEFAULT_DIALOG_STYLE|wxRESIZE_BORDER|wxSTAY_ON_TOP );
 		~Info();
-	
+
 };
 
 ///////////////////////////////////////////////////////////////////////////////
 /// Class Debug
 ///////////////////////////////////////////////////////////////////////////////
-class Debug : public wxDialog 
+class Debug : public wxDialog
 {
 	private:
-	
+
 	protected:
-		
+
 		// Virtual event handlers, overide them in your derived class
 		virtual void ThermalOnActivate( wxActivateEvent& event ) { event.Skip(); }
-		
-	
+
+
 	public:
 		wxTextCtrl* m_textCtrl41;
-		
-		Debug( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("Debug"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 350,350 ), long style = wxDEFAULT_DIALOG_STYLE ); 
+
+		Debug( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("Debug"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 350,350 ), long style = wxDEFAULT_DIALOG_STYLE );
 		~Debug();
-	
+
 };
 
 #endif //__OSC_H__

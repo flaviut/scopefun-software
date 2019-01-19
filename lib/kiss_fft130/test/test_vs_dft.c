@@ -5,7 +5,7 @@ void check(kiss_fft_cpx  * in,kiss_fft_cpx  * out,int nfft,int isinverse)
 {
     int bin,k;
     double errpow=0,sigpow=0;
-    
+
     for (bin=0;bin<nfft;++bin) {
         double ansr = 0;
         double ansi = 0;
@@ -22,7 +22,7 @@ void check(kiss_fft_cpx  * in,kiss_fft_cpx  * out,int nfft,int isinverse)
 #ifdef FIXED_POINT
             re /= nfft;
             im /= nfft;
-#endif            
+#endif
 
             ansr += in[k].r * re - in[k].i * im;
             ansi += in[k].r * im + in[k].i * re;

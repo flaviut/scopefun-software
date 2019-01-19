@@ -215,9 +215,9 @@ void GrShader::compile(const char* file,GrVertexDeclaration decl,GrShaderDefine 
 	glDeleteShader(ps->index);
 	//
    for (int i = 0; i < decl.element.getCount(); i++)
-   {            
+   {
       glBindAttribLocation(program, i/*decl.element[i]->index*/, decl.element[i]->name );
-   }   
+   }
 
    ////////////////////////////////////////////////////////
    // link

@@ -32,18 +32,18 @@ void OsciloskopDisplay::DisplayOnInitDialog( wxInitDialogEvent& event )
     m_checkBoxUnits->SetValue( pOsciloscope->window.display.oscUnits );
     m_checkBoxAxis->SetValue( pOsciloscope->window.display.oscAxis );
     m_checkBoxGrid->SetValue( pOsciloscope->window.display.oscGrid );
-    
+
     m_checkBoxFFTUnit->SetValue( pOsciloscope->window.display.fftUnits );
     m_checkBoxFFTAxis->SetValue( pOsciloscope->window.display.fftAxis );
     m_checkBoxFFTGrid->SetValue( pOsciloscope->window.display.fftGrid );
-    
+
     m_checkBoxDigitalUnit->SetValue( pOsciloscope->window.display.digitalUnits );
     m_checkBoxDigitalAxis->SetValue( pOsciloscope->window.display.digitalAxis );
     m_checkBoxDigitalGrid->SetValue( pOsciloscope->window.display.digitalGrid );
-    
+
     m_choiceSignal->SetSelection(pOsciloscope->window.display.signalType);
     m_choiceFFT->SetSelection(pOsciloscope->window.display.fftType);
-    
+
     m_textCtrlSignal->SetValue( wxString::FromAscii( floatToString(pOsciloscope->window.display.signalWidth) ) );
     m_textCtrlFFT->SetValue( wxString::FromAscii( floatToString(pOsciloscope->window.display.fftWidth) ) );
     m_sliderSignal->SetValue((pOsciloscope->window.display.signalWidth / MAX_TRIANGLE_SIZE) * 100);
@@ -178,7 +178,7 @@ void OsciloskopDisplay::m_choiceFFTXOnChoice( wxCommandEvent& event )
 }
 
 void OsciloskopDisplay::m_checkBox3dSolidOnCheckBox(wxCommandEvent& event)
-{   
+{
    pOsciloscope->window.display.solid3d = m_checkBox3dSolid->IsChecked() ? 1 : 0;
 }
 void OsciloskopDisplay::m_checkBox3dLightOnCheckBox(wxCommandEvent& event)

@@ -33,29 +33,29 @@ layout (std140) uniform VSCBuffer0 {
 	in  vec4 inPos;
 	in  vec2 inUV;
 	out vec2 Tex;
-#else 
+#else
 	in  vec4 inPos;
 	#ifdef NORMAL
 		in  vec4 inNormal;
-		out vec4 Normal;		
-	#endif	
-	
+		out vec4 Normal;
+	#endif
+
 	#ifdef COLOR
 		out vec4 WorldPosition;
 	#endif
 #endif
 
 void main()
-{	
-	gl_Position   = gVSFinalMatrix*inPos;	
+{
+	gl_Position   = gVSFinalMatrix*inPos;
 
 	#ifdef TEXTURE
 		Tex = inUV;
 	#else
 		#ifdef NORMAL
 			Normal 		  = inNormal;
-		#endif		
-		
+		#endif
+
 		#ifdef COLOR
 			WorldPosition = inPos;
 		#endif

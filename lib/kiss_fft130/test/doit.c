@@ -1,5 +1,5 @@
-/* this program is in the public domain 
-   A program that helps the authors of the fine fftw library benchmark kiss 
+/* this program is in the public domain
+   A program that helps the authors of the fine fftw library benchmark kiss
 */
 
 #include "bench-user.h"
