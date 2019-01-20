@@ -1,9 +1,0 @@
-Section: electronics
-Priority: optional
-Maintainer: David Kosenina <david@scopefun.com>
-Package: scopefun-linux
-Architecture: i386
-Description: ScopeFun Oscilloscope.
- Cross platform and completely open source.
- Download from http://www.scopefun.com
-Version: 1.00

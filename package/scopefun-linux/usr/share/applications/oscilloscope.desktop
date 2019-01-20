@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Encoding=UTF-8
-Name=Oscilloscope
-Comment=http://www.scopefun.com
-Path=/usr/lib/oscilloscope/
-Exec=/usr/bin/oscilloscope
-Icon=/usr/lib/oscilloscope/oscilloscope256.png
-Terminal=false

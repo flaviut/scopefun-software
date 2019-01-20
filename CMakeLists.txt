@@ -20,70 +20,67 @@ include_directories(
     ${OPENGL_INCLUDE_DIRS}
     ${wxWidgets_INCLUDE_DIRS}
     ${LibUSB_INCLUDE_DIRS}
-    source
-    lib/cJSON
-    lib/kiss_fft130
-    lib/libusb-1.0.20/examples/
+    src
+    src/vendor/cJSON
+    src/vendor/kiss_fft130
 )
 
 set(SOURCE_FILES
-    # cJSON
-    lib/cJSON/cJSON.c
-    # kiss_fft130
-    lib/kiss_fft130/kiss_fft.c
+    src/vendor/cJSON/cJSON.c
+    src/vendor/kiss_fft130/kiss_fft.c
 
     # scopefun sources
-    source/core/input/input.cpp
-    source/core/core.cpp
-    source/core/string/corestring.cpp
-    source/core/format/format.cpp
-    source/core/render/font/font.cpp
-    source/core/render/canvas/canvas2d.cpp
-    source/core/render/canvas/canvas3d.cpp
-    source/core/render/render/render.cpp
-    source/core/render/camera/camera.cpp
-    source/core/opengl/opengl_devicestate.cpp
-    source/core/opengl/opengl_texture.cpp
-    source/core/opengl/opengl_device.cpp
-    source/core/opengl/opengl_staticmesh.cpp
-    source/core/opengl/opengl.cpp
-    source/core/opengl/opengl_shader.cpp
-    source/core/memory/memory.cpp
-    source/core/libusb/libusb.cpp
-    source/core/libusb/ezusb.c
-    source/core/manager/manager.cpp
-    source/core/file/file.cpp
-    source/core/timer/timer.cpp
-    source/osciloscope/osciloscope.cpp
-    source/osciloscope/gui/OsciloskopOsciloskop.cpp
-    source/osciloscope/gui/OsciloskopMeasure.cpp
-    source/osciloscope/gui/OsciloskopDebug.cpp
-    source/osciloscope/gui/OsciloskopHardwareGenerator.cpp
-    source/osciloscope/gui/OsciloskopThermal.cpp
-    source/osciloscope/gui/OsciloskopInfo.cpp
-    source/osciloscope/gui/osc.cpp
-    source/osciloscope/gui/OsciloskopDisplay.cpp
-    source/osciloscope/gui/OsciloskopSoftwareGenerator.cpp
-    source/osciloscope/osciloscope/oscrender.cpp
-    source/osciloscope/osciloscope/oscsignal.cpp
-    source/osciloscope/osciloscope/oscfile.cpp
-    source/osciloscope/osciloscope/oscfft.cpp
-    source/osciloscope/osciloscope/oscsettings.cpp
-    source/osciloscope/osciloscope/oscmng.cpp
-    source/osciloscope/window/wndshadow.cpp
-    source/osciloscope/window/wndmain.cpp
-    source/osciloscope/window/tool.cpp
-    source/osciloscope/window/wnddisplay.cpp
-    source/osciloscope/window/wndgenerate.cpp
-    source/osciloscope/app/managers.cpp
-    source/osciloscope/app/app.cpp
-    source/osciloscope/xpm/xpm96.c
-    source/osciloscope/xpm/xpm512.c
-    source/osciloscope/xpm/xpm64.c
-    source/osciloscope/xpm/xpm256.c
-    source/osciloscope/xpm/xpm16.c
-    source/osciloscope/xpm/xpm32.c
-    source/osciloscope/xpm/xpm128.c
+    src/core/input/input.cpp
+    src/core/core.cpp
+    src/core/string/corestring.cpp
+    src/core/format/format.cpp
+    src/core/render/font/font.cpp
+    src/core/render/canvas/canvas2d.cpp
+    src/core/render/canvas/canvas3d.cpp
+    src/core/render/render/render.cpp
+    src/core/render/camera/camera.cpp
+    src/core/opengl/opengl_devicestate.cpp
+    src/core/opengl/opengl_texture.cpp
+    src/core/opengl/opengl_device.cpp
+    src/core/opengl/opengl_staticmesh.cpp
+    src/core/opengl/opengl.cpp
+    src/core/opengl/opengl_shader.cpp
+    src/core/memory/memory.cpp
+    src/core/libusb/libusb.cpp
+    src/core/libusb/ezusb.c
+    src/core/manager/manager.cpp
+    src/core/file/file.cpp
+    src/core/timer/timer.cpp
+    src/osciloscope/osciloscope.cpp
+    src/osciloscope/gui/OsciloskopOsciloskop.cpp
+    src/osciloscope/gui/OsciloskopMeasure.cpp
+    src/osciloscope/gui/OsciloskopDebug.cpp
+    src/osciloscope/gui/OsciloskopHardwareGenerator.cpp
+    src/osciloscope/gui/OsciloskopThermal.cpp
+    src/osciloscope/gui/OsciloskopInfo.cpp
+    src/osciloscope/gui/osc.cpp
+    src/osciloscope/gui/OsciloskopDisplay.cpp
+    src/osciloscope/gui/OsciloskopSoftwareGenerator.cpp
+    src/osciloscope/osciloscope/oscrender.cpp
+    src/osciloscope/osciloscope/oscsignal.cpp
+    src/osciloscope/osciloscope/oscfile.cpp
+    src/osciloscope/osciloscope/oscfft.cpp
+    src/osciloscope/osciloscope/oscsettings.cpp
+    src/osciloscope/osciloscope/oscmng.cpp
+    src/osciloscope/window/wndshadow.cpp
+    src/osciloscope/window/wndmain.cpp
+    src/osciloscope/window/tool.cpp
+    src/osciloscope/window/wnddisplay.cpp
+    src/osciloscope/window/wndgenerate.cpp
+    src/osciloscope/app/managers.cpp
+    src/osciloscope/app/app.cpp
+    src/osciloscope/xpm/xpm96.c
+    src/osciloscope/xpm/xpm512.c
+    src/osciloscope/xpm/xpm64.c
+    src/osciloscope/xpm/xpm256.c
+    src/osciloscope/xpm/xpm16.c
+    src/osciloscope/xpm/xpm32.c
+    src/osciloscope/xpm/xpm128.c
 )
 
 add_executable(scopefun ${SOURCE_FILES})
