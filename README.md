@@ -25,7 +25,7 @@ If I haven't fallen behind on updating this readme, that means:
 - WX
 - libusb
 
-Building is fairly typical for cmake:
+Once you have this stuff, building is fairly typical for cmake:
 
 ```console
 $ mkdir -p cmake-build-debug
