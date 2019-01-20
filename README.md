@@ -48,8 +48,17 @@ $ ../cmake-build-debug/scopefun
 
 ### udev rules
 
-You don't want to have to run the frontend as root, so add your user to the
-uucp group (which will also give you access to serial devices), and copy
-`resources/driver/51-scopefun.rules` into `/etc/udev/rules.d/`. [Reload udev
-rules](https://unix.stackexchange.com/a/39371/70735) and re-plug-in the
-oscilloscope, and you should be good to go.
+You don't want to have to run the frontend as root, so [add your user to the
+`uucp` group](https://unix.stackexchange.com/a/293059/70735) ([which will also
+give you access to serial
+devices](https://wiki.archlinux.org/index.php/Users_and_groups#User_groups)),
+and copy `resources/driver/51-scopefun.rules` into `/etc/udev/rules.d/`.
+[Reload udev rules](https://unix.stackexchange.com/a/39371/70735) and
+re-plug-in the oscilloscope, and you should be good to go.
+
+```console
+$ sudo usermod -a -G uucp $(id -un)
+# cp resources/driver/51-scopefun.rules /etc/udev/rules.d/
+# udevadm control --reload-rules
+# udevadm trigger
+```
