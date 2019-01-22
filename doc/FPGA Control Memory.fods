@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:creation-date>2019-01-21T16:41:13.948650945</meta:creation-date><dc:date>2019-01-21T20:47:35.269822726</dc:date><meta:editing-duration>PT1H54M28S</meta:editing-duration><meta:editing-cycles>31</meta:editing-cycles><meta:generator>LibreOffice/6.1.4.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:document-statistic meta:table-count="1" meta:cell-count="377" meta:object-count="0"/></office:meta>
+ <office:meta><meta:creation-date>2019-01-21T16:41:13.948650945</meta:creation-date><dc:date>2019-01-22T10:49:20.988556316</dc:date><meta:editing-duration>PT14H45M35S</meta:editing-duration><meta:editing-cycles>52</meta:editing-cycles><meta:generator>LibreOffice/6.1.4.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:document-statistic meta:table-count="1" meta:cell-count="445" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">41319</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">58737</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">42033</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">63849</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="Sheet1">
        <config:config-item config:name="CursorPositionX" config:type="int">5</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">90</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">96</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">2</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -23,7 +23,7 @@
        <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
-       <config:config-item config:name="PositionBottom" config:type="int">61</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">70</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
        <config:config-item config:name="ZoomValue" config:type="int">95</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -32,7 +32,7 @@
       </config:config-item-map-entry>
      </config:config-item-map-named>
      <config:config-item config:name="ActiveTable" config:type="string">Sheet1</config:config-item>
-     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1657</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1678</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ZoomValue" config:type="int">95</config:config-item>
      <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -173,22 +173,23 @@
   <style:style style:name="Accent_20_3" style:display-name="Accent 3" style:family="table-cell" style:parent-style-name="Accent">
    <style:table-cell-properties fo:background-color="#dddddd"/>
   </style:style>
+  <draw:marker draw:name="Arrowheads_20_1" draw:display-name="Arrowheads 1" svg:viewBox="0 0 20 30" svg:d="M10 0l-10 30h20z"/>
  </office:styles>
  <office:automatic-styles>
   <style:style style:name="co1" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="64.8pt"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="67.41pt"/>
   </style:style>
   <style:style style:name="co2" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="163.9pt"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="172.2pt"/>
   </style:style>
   <style:style style:name="co3" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="147.15pt"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="155.14pt"/>
   </style:style>
   <style:style style:name="co4" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="72.26pt"/>
   </style:style>
   <style:style style:name="co5" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="26.19pt"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="27.55pt"/>
   </style:style>
   <style:style style:name="co6" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="696.95pt"/>
@@ -200,7 +201,7 @@
    <style:table-row-properties style:row-height="12.81pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ro2" style:family="table-row">
-   <style:table-row-properties style:row-height="17.35pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
+   <style:table-row-properties style:row-height="29.14pt" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ro3" style:family="table-row">
    <style:table-row-properties style:row-height="12.95pt" fo:break-before="auto" style:use-optimal-row-height="false"/>
@@ -216,7 +217,7 @@
   <style:style style:name="ce2" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="middle"/>
    <style:paragraph-properties fo:text-align="center"/>
-   <style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+   <style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="ce3" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:background-color="#cccccc" style:text-align-source="fix" style:repeat-content="false" fo:border="0.06pt solid #000000"/>
@@ -238,32 +239,56 @@
    <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="ce7" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:border="0.06pt solid #000000"/>
+  </style:style>
+  <style:style style:name="ce8" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:background-color="#cccccc" fo:border="0.06pt solid #000000"/>
    <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="ce8" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce9" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:background-color="#000000" fo:border="0.06pt solid #000000"/>
    <style:text-properties style:use-window-font-color="true" fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="ce9" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce10" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:background-color="#000000" fo:border="0.06pt solid #000000"/>
    <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="ce10" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce11" style:family="table-cell" style:parent-style-name="Default">
    <style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
   </style:style>
-  <style:style style:name="ce11" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce12" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:border-bottom="none" fo:background-color="#cccccc" fo:border-left="0.06pt solid #000000" fo:border-right="0.06pt solid #000000" fo:border-top="0.06pt solid #000000"/>
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce13" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:border-bottom="0.06pt solid #000000" fo:background-color="#cccccc" fo:border-left="0.06pt solid #000000" fo:border-right="0.06pt solid #000000" fo:border-top="none"/>
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce14" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:background-color="transparent" fo:border="0.06pt solid #000000"/>
    <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="ce12" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce15" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:border="0.06pt solid #000000"/>
    <style:text-properties fo:font-size="14pt" fo:font-weight="normal" style:font-size-asian="14pt" style:font-weight-asian="normal" style:font-size-complex="14pt" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="ce13" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce16" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:background-color="#cccccc" style:text-align-source="fix" style:repeat-content="false" fo:border="0.06pt solid #000000"/>
    <style:paragraph-properties fo:text-align="end" fo:margin-left="0pt"/>
    <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce17" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:background-color="#cccccc" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" fo:border="0.06pt solid #000000" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0pt"/>
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce18" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:background-color="#cccccc" style:text-align-source="fix" style:repeat-content="false" fo:border="0.06pt solid #000000" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0pt"/>
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="gr1" style:family="graphic">
+   <style:graphic-properties draw:marker-start="Arrowheads_20_1" draw:marker-start-width="5.67pt" draw:marker-start-center="false" draw:fill="solid" draw:fill-color="#ffffc0" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:min-height="45.33pt" fo:padding-top="2.83pt" fo:padding-bottom="2.83pt" fo:padding-left="2.83pt" fo:padding-right="2.83pt" draw:shadow="hidden" draw:shadow-offset-x="2.83pt" draw:shadow-offset-y="2.83pt" draw:caption-escape-direction="auto"/>
   </style:style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties style:writing-mode="lr-tb"/>
@@ -287,6 +312,15 @@
     </style:header-footer-properties>
    </style:footer-style>
   </style:page-layout>
+  <style:style style:name="P1" style:family="paragraph">
+   <style:paragraph-properties style:text-autospace="none" style:line-break="normal" style:writing-mode="page"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans" fo:font-size="10pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="DejaVu Sans" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Noto Sans Devanagari" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color" fo:hyphenate="false"/>
+  </style:style>
+  <style:style style:name="P2" style:family="paragraph">
+   <loext:graphic-properties draw:fill="solid" draw:fill-color="#ffffc0"/>
+   <style:paragraph-properties style:text-autospace="none" style:line-break="normal" style:writing-mode="page"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans" fo:font-size="10pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="DejaVu Sans" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Noto Sans Devanagari" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color" fo:hyphenate="false"/>
+  </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-weight="normal" style:text-underline-style="none" style:text-underline-color="font-color" style:text-line-through-type="none" fo:font-style="normal" style:text-outline="false" fo:text-shadow="none" style:text-line-through-mode="continuous" fo:language="en" fo:country="US" style:language-asian="zh" style:country-asian="CN" style:language-complex="hi" style:country-complex="IN" style:font-name-asian="DejaVu Sans" style:font-name-complex="Noto Sans Devanagari" style:font-size-asian="10pt" style:font-size-complex="10pt" style:font-weight-asian="normal" style:font-weight-complex="normal" style:font-style-asian="normal" style:font-style-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
@@ -308,7 +342,7 @@
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2019-01-21">00/00/0000</text:date>, <text:time>00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2019-01-22">00/00/0000</text:date>, <text:time>00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -324,22 +358,20 @@
    <table:table table:name="Sheet1" table:style-name="ta1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <table:table-column table:style-name="co1" table:default-cell-style-name="ce6"/>
-    <table:table-column table:style-name="co2" table:default-cell-style-name="ce6"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="ce8"/>
     <table:table-column table:style-name="co3" table:default-cell-style-name="ce6"/>
-    <table:table-column table:style-name="co4" table:default-cell-style-name="ce7"/>
+    <table:table-column table:style-name="co4" table:default-cell-style-name="ce6"/>
     <table:table-column table:style-name="co5" table:default-cell-style-name="ce6"/>
     <table:table-column table:style-name="co6" table:default-cell-style-name="ce6"/>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
-      <text:p>Addr</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce1"/>
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>Purpose</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Channel</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Type</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -359,130 +391,135 @@
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>control</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7"/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>ushort</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="2" calcext:value-type="float">
       <text:p>2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Gain</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>ACH1</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>UNSIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="float" office:value="12" calcext:value-type="float">
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="12" calcext:value-type="float">
       <text:p>12</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>Needs Calibration</text:p>
+     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="3" calcext:value-type="float">
       <text:p>3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Gain</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>ACH2</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>UNSIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="float" office:value="12" calcext:value-type="float">
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="12" calcext:value-type="float">
       <text:p>12</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>Needs Calibration</text:p>
+     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="4" calcext:value-type="float">
       <text:p>4</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Voltage Offset</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>ACH1</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>SIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="float" office:value="12" calcext:value-type="float">
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="12" calcext:value-type="float">
       <text:p>12</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>Needs Calibration</text:p>
+     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="5" calcext:value-type="float">
       <text:p>5</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Voltage Offset</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>ACH2</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>SIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="float" office:value="12" calcext:value-type="float">
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="12" calcext:value-type="float">
       <text:p>12</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>Needs Calibration</text:p>
+     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce4" office:value-type="float" office:value="6" calcext:value-type="float">
       <text:p>6</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="4"/>
-     <table:table-cell table:style-name="ce9"/>
+     <table:table-cell table:style-name="ce9" table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce10"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce4" office:value-type="float" office:value="7" calcext:value-type="float">
       <text:p>7</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="4"/>
-     <table:table-cell table:style-name="ce9"/>
+     <table:table-cell table:style-name="ce9" table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce10"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="8" calcext:value-type="float">
       <text:p>8</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Analog Input Flags</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>ACH1, ACH2</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>BITSET</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="float" office:value="16" calcext:value-type="float">
-      <text:p>16</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce7"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce1" table:formula="of:=&quot;8.00&quot;" office:value-type="string" office:string-value="8.00" calcext:value-type="string">
       <text:p>8.00</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>Input Attenuation Enabled</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>ACH2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>BOOL</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
@@ -495,13 +532,13 @@
      <table:table-cell table:style-name="ce1" table:formula="of:=&quot;8.01&quot;" office:value-type="string" office:string-value="8.01" calcext:value-type="string">
       <text:p>8.01</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>Input Attenuation Enabled</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>ACH1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>BOOL</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
@@ -514,13 +551,13 @@
      <table:table-cell table:style-name="ce1" table:formula="of:=&quot;8.02&quot;" office:value-type="string" office:string-value="8.02" calcext:value-type="string">
       <text:p>8.02</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>Ground Pull Down Enabled</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>ACH2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>BOOL</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
@@ -533,13 +570,13 @@
      <table:table-cell table:style-name="ce1" table:formula="of:=&quot;8.03&quot;" office:value-type="string" office:string-value="8.03" calcext:value-type="string">
       <text:p>8.03</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>Ground Pull Down Enabled</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>ACH1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>BOOL</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
@@ -552,13 +589,13 @@
      <table:table-cell table:style-name="ce1" table:formula="of:=&quot;8.04&quot;" office:value-type="string" office:string-value="8.04" calcext:value-type="string">
       <text:p>8.04</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>DC Coupling Enabled</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>ACH2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>BOOL</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
@@ -572,13 +609,13 @@
      <table:table-cell table:style-name="ce1" table:formula="of:=&quot;8.05&quot;" office:value-type="string" office:string-value="8.05" calcext:value-type="string">
       <text:p>8.05</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>DC Coupling Enabled</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>ACH1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>BOOL</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
@@ -591,25 +628,25 @@
      <table:table-cell table:style-name="ce5" table:formula="of:=&quot;8.06&quot;" office:value-type="string" office:string-value="8.06" calcext:value-type="string">
       <text:p>8.06</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce10" table:number-columns-repeated="5"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce5" table:formula="of:=&quot;8.07&quot;" office:value-type="string" office:string-value="8.07" calcext:value-type="string">
       <text:p>8.07</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce10" table:number-columns-repeated="5"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce1" table:formula="of:=&quot;8.08&quot;" office:value-type="string" office:string-value="8.08" calcext:value-type="string">
       <text:p>8.08</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>Equivalent Time Sampling Enabled</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>ACH1, ACH2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>BOOL</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
@@ -627,31 +664,31 @@
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="9" calcext:value-type="float">
       <text:p>9</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
-      <text:p>Trigger Data</text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Trigger Options</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>ACH1, ACH2, D</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>UNSIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="float" office:value="3" calcext:value-type="float">
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="3" calcext:value-type="float">
       <text:p>3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7"/>
+     <table:table-cell table:style-name="ce8"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
       <text:p>9.00,9.01</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>Trigger Mode</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>ACH1, ACH2, D</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>ENUM</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
@@ -660,57 +697,49 @@
      <table:table-cell table:style-name="ce1" table:formula="of:=&quot;=0&quot;" office:value-type="string" office:string-value="=0" calcext:value-type="string">
       <text:p>=0</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>Immediate (rolling)</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=1&quot;" office:value-type="string" office:string-value="=1" calcext:value-type="string">
       <text:p>=1</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>Normal</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=2&quot;" office:value-type="string" office:string-value="=2" calcext:value-type="string">
       <text:p>=2</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>Single</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce1" table:formula="of:=&quot;=3&quot;" office:value-type="string" office:string-value="=3" calcext:value-type="string">
       <text:p>=3</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>Auto</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;9.02&quot;" office:value-type="string" office:string-value="9.02" calcext:value-type="string">
       <text:p>9.02</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>Re-arm (Single trigger only)</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>ACH1, ACH2, D</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>BOOL</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
@@ -719,143 +748,131 @@
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="10" calcext:value-type="float">
       <text:p>10</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Trigger Source</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>ACH1, ACH2, AWG1, AWG2, D</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>ENUM</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="float" office:value="3" calcext:value-type="float">
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="3" calcext:value-type="float">
       <text:p>3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7"/>
+     <table:table-cell table:style-name="ce8"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=0&quot;" office:value-type="string" office:string-value="=0" calcext:value-type="string">
       <text:p>=0</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>ACH1</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=1&quot;" office:value-type="string" office:string-value="=1" calcext:value-type="string">
       <text:p>=1</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>ACH2</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=2&quot;" office:value-type="string" office:string-value="=2" calcext:value-type="string">
       <text:p>=2</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Analog Function Gen 1</text:p>
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+      <office:annotation draw:style-name="gr1" draw:text-style-name="P2" svg:width="82.18pt" svg:height="51pt" svg:x="256.59pt" svg:y="374.17pt" draw:caption-point-x="-17.29pt" draw:caption-point-y="42.8pt">
+       <dc:date>2019-01-21T00:00:00</dc:date>
+       <text:p text:style-name="P1">Arbitrary Waveform Generator</text:p>
+      </office:annotation>
+      <text:p>AWG1</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=3&quot;" office:value-type="string" office:string-value="=3" calcext:value-type="string">
       <text:p>=3</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Analog Function Gen 2</text:p>
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+      <text:p>AWG2</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=4&quot;" office:value-type="string" office:string-value="=4" calcext:value-type="string">
       <text:p>=4</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>Digital</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="11" calcext:value-type="float">
       <text:p>11</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Trigger Edge</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>ACH1, ACH2, AWG1, AWG2, D</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>ENUM</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="float" office:value="2" calcext:value-type="float">
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="2" calcext:value-type="float">
       <text:p>2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7"/>
+     <table:table-cell table:style-name="ce8"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=0&quot;" office:value-type="string" office:string-value="=0" calcext:value-type="string">
       <text:p>=0</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>Rising</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=1&quot;" office:value-type="string" office:string-value="=1" calcext:value-type="string">
       <text:p>=1</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>Falling</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=2&quot;" office:value-type="string" office:string-value="=2" calcext:value-type="string">
       <text:p>=2</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>Both</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="12" calcext:value-type="float">
       <text:p>12</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Trigger Threshold</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>ACH1, ACH2</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>SIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="float" office:value="10" calcext:value-type="float">
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="10" calcext:value-type="float">
       <text:p>10</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" table:formula="of:=&quot;=3.223E-3V * x&quot;" office:value-type="string" office:string-value="=3.223E-3V * x" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" table:formula="of:=&quot;=3.223E-3V * x&quot;" office:value-type="string" office:string-value="=3.223E-3V * x" calcext:value-type="string">
       <text:p>=3.223E-3V * x</text:p>
      </table:table-cell>
     </table:table-row>
@@ -863,19 +880,19 @@
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="13" calcext:value-type="float">
       <text:p>13</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Trigger Hysteresis</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>ACH1, ACH2</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>SIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="float" office:value="10" calcext:value-type="float">
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="10" calcext:value-type="float">
       <text:p>10</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>In volts. The signal must cross Threshold ± Hysteresis and then Threshold before the trigger will activate. You will generally want to keep this positive</text:p>
      </table:table-cell>
     </table:table-row>
@@ -883,19 +900,19 @@
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="14" calcext:value-type="float">
       <text:p>14</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Pre-Trigger Samples</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>ACH1, ACH2, D</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>UNSIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="float" office:value="14" calcext:value-type="float">
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="14" calcext:value-type="float">
       <text:p>14</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>Number of samples to save pre-trigger</text:p>
      </table:table-cell>
     </table:table-row>
@@ -903,327 +920,277 @@
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="15" calcext:value-type="float">
       <text:p>15</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Sample rate</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>ACH1, ACH2, D</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>ENUM</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="float" office:value="5" calcext:value-type="float">
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="5" calcext:value-type="float">
       <text:p>5</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7"/>
+     <table:table-cell table:style-name="ce8"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=00&quot;" office:value-type="string" office:string-value="=00" calcext:value-type="string">
       <text:p>=00</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>100 MHz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=01&quot;" office:value-type="string" office:string-value="=01" calcext:value-type="string">
       <text:p>=01</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>50 MHz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=02&quot;" office:value-type="string" office:string-value="=02" calcext:value-type="string">
       <text:p>=02</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>20 MHz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=03&quot;" office:value-type="string" office:string-value="=03" calcext:value-type="string">
       <text:p>=03</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>10 MHz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=04&quot;" office:value-type="string" office:string-value="=04" calcext:value-type="string">
       <text:p>=04</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>5 MHz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=05&quot;" office:value-type="string" office:string-value="=05" calcext:value-type="string">
       <text:p>=05</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>2 MHz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=06&quot;" office:value-type="string" office:string-value="=06" calcext:value-type="string">
       <text:p>=06</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>1 MHz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=07&quot;" office:value-type="string" office:string-value="=07" calcext:value-type="string">
       <text:p>=07</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>500 kHz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=08&quot;" office:value-type="string" office:string-value="=08" calcext:value-type="string">
       <text:p>=08</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>200 kHz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=09&quot;" office:value-type="string" office:string-value="=09" calcext:value-type="string">
       <text:p>=09</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>100 kHz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=10&quot;" office:value-type="string" office:string-value="=10" calcext:value-type="string">
       <text:p>=10</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>50 kHz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=11&quot;" office:value-type="string" office:string-value="=11" calcext:value-type="string">
       <text:p>=11</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>20 kHz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=12&quot;" office:value-type="string" office:string-value="=12" calcext:value-type="string">
       <text:p>=12</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>10 kHz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=13&quot;" office:value-type="string" office:string-value="=13" calcext:value-type="string">
       <text:p>=13</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>5 kHz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=14&quot;" office:value-type="string" office:string-value="=14" calcext:value-type="string">
       <text:p>=14</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>2 kHz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=15&quot;" office:value-type="string" office:string-value="=15" calcext:value-type="string">
       <text:p>=15</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>1 kHz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=16&quot;" office:value-type="string" office:string-value="=16" calcext:value-type="string">
       <text:p>=16</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>500 Hz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=17&quot;" office:value-type="string" office:string-value="=17" calcext:value-type="string">
       <text:p>=17</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>200 Hz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=18&quot;" office:value-type="string" office:string-value="=18" calcext:value-type="string">
       <text:p>=18</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>100 Hz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=19&quot;" office:value-type="string" office:string-value="=19" calcext:value-type="string">
       <text:p>=19</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>50 Hz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=20&quot;" office:value-type="string" office:string-value="=20" calcext:value-type="string">
       <text:p>=20</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>20 Hz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=21&quot;" office:value-type="string" office:string-value="=21" calcext:value-type="string">
       <text:p>=21</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>10 Hz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=22&quot;" office:value-type="string" office:string-value="=22" calcext:value-type="string">
       <text:p>=22</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>5 Hz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=23&quot;" office:value-type="string" office:string-value="=23" calcext:value-type="string">
       <text:p>=23</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>2 Hz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=24&quot;" office:value-type="string" office:string-value="=24" calcext:value-type="string">
       <text:p>=24</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>1 Hz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=25&quot;" office:value-type="string" office:string-value="=25" calcext:value-type="string">
       <text:p>=25</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
       <text:p>0.5 Hz</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce6"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce5" office:value-type="float" office:value="16" calcext:value-type="float">
       <text:p>16</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce9" table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce10" table:number-columns-repeated="5"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="17" calcext:value-type="float">
       <text:p>17</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Trigger Holdoff Samples High</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
       <text:p>ACH1, ACH2, D</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
       <text:p>UNSIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7"/>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce12" office:value-type="float" office:value="32" calcext:value-type="float">
+      <text:p>32</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
       <text:p>Number of samples to wait before the next trigger activation</text:p>
      </table:table-cell>
     </table:table-row>
@@ -1231,48 +1198,40 @@
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="18" calcext:value-type="float">
       <text:p>18</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Trigger Holdoff Samples Low</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
-      <text:p>ACH1, ACH2, D</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="6" table:number-rows-spanned="1">
-      <text:p>Arbitrary Waveform Generator Options</text:p>
+      <text:p>Arbitrary Waveform Generator</text:p>
      </table:table-cell>
-     <table:covered-table-cell table:number-columns-repeated="4" table:style-name="ce10"/>
-     <table:covered-table-cell table:style-name="ce12"/>
+     <table:covered-table-cell table:number-columns-repeated="4" table:style-name="ce11"/>
+     <table:covered-table-cell table:style-name="ce15"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="19" calcext:value-type="float">
       <text:p>19</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Generator Type</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>AWG1</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>BITSET</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="float" office:value="9" calcext:value-type="float">
-      <text:p>9</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce16"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="Default" table:formula="of:=&quot;19.00..19.03&quot;" office:value-type="string" office:string-value="19.00..19.03" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" table:formula="of:=&quot;19.00..19.03&quot;" office:value-type="string" office:string-value="19.00..19.03" calcext:value-type="string">
       <text:p>19.00..19.03</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce14" office:value-type="string" calcext:value-type="string">
       <text:p>ENUM</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
@@ -1284,111 +1243,111 @@
      <table:table-cell table:formula="of:=&quot;=0&quot;" office:value-type="string" office:string-value="=0" calcext:value-type="string">
       <text:p>=0</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Custom signal (AWG)</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=1&quot;" office:value-type="string" office:string-value="=1" calcext:value-type="string">
       <text:p>=1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Sin</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=2&quot;" office:value-type="string" office:string-value="=2" calcext:value-type="string">
       <text:p>=2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Cos</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=3&quot;" office:value-type="string" office:string-value="=3" calcext:value-type="string">
       <text:p>=3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Triangle</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=4&quot;" office:value-type="string" office:string-value="=4" calcext:value-type="string">
       <text:p>=4</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Ramp Up</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=5&quot;" office:value-type="string" office:string-value="=5" calcext:value-type="string">
       <text:p>=5</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Ramp Down</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=6&quot;" office:value-type="string" office:string-value="=6" calcext:value-type="string">
       <text:p>=6</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Square</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=7&quot;" office:value-type="string" office:string-value="=7" calcext:value-type="string">
       <text:p>=7</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Delta</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=8&quot;" office:value-type="string" office:string-value="=8" calcext:value-type="string">
       <text:p>=8</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>DC</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=9&quot;" office:value-type="string" office:string-value="=9" calcext:value-type="string">
       <text:p>=9</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Noise</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;19.08&quot;" office:value-type="string" office:string-value="19.08" calcext:value-type="string">
       <text:p>19.08</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Enabled</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default"/>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7"/>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>BOOL</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
@@ -1397,204 +1356,230 @@
      <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="20" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="20" calcext:value-type="float">
       <text:p>20</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Voltage (amplitude)</text:p>
+      <text:p>Amplitude (V)</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>AWG1</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>SIGNED_FIX</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="float" office:value="12" calcext:value-type="float">
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="12" calcext:value-type="float">
       <text:p>12</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>in binary, the voltage is encoded as X.XXX_XXXX_XXXX</text:p>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>Height of the waveform in volts. In binary, encoded as X*1.X*11</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="21" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="21" calcext:value-type="float">
       <text:p>21</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>generatorOffset0</text:p>
+      <text:p>Offset (V)</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>AWG1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>SIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="12" calcext:value-type="float">
+      <text:p>12</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>Needs Calibration</text:p>
+     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="22" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="22" calcext:value-type="float">
       <text:p>22</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>generatorDeltaH0</text:p>
+      <text:p>Phase High (Samples)</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
+      <text:p>AWG1</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
+      <text:p>SIGNED_FIX</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="float" office:value="32" calcext:value-type="float">
+      <text:p>32</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
+      <text:p>Samples to offset the function generator. The generator runs at 50MHz. In binary, encoded as X*12.X*20</text:p>
+     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="23" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="23" calcext:value-type="float">
       <text:p>23</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>generatorDeltaL0</text:p>
+      <text:p>Phase Low</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="24" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="24" calcext:value-type="float">
       <text:p>24</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>generatorSqueareDuty0</text:p>
+      <text:p>Square Wave Duty Cycle</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>AWG1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>UNSIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="12" calcext:value-type="float">
+      <text:p>12</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="25" calcext:value-type="float">
       <text:p>25</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Generator Type</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>AWG2</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>BITSET</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7" office:value-type="float" office:value="9" calcext:value-type="float">
-      <text:p>9</text:p>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce16"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce7" table:formula="of:=&quot;25.00..25.03&quot;" office:value-type="string" office:string-value="25.00..25.03" calcext:value-type="string">
+      <text:p>25.00..25.03</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce7"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce14" office:value-type="string" calcext:value-type="string">
+      <text:p>ENUM</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=0&quot;" office:value-type="string" office:string-value="=0" calcext:value-type="string">
       <text:p>=0</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Custom signal (AWG)</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=1&quot;" office:value-type="string" office:string-value="=1" calcext:value-type="string">
       <text:p>=1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Sin</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=2&quot;" office:value-type="string" office:string-value="=2" calcext:value-type="string">
       <text:p>=2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Cos</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=3&quot;" office:value-type="string" office:string-value="=3" calcext:value-type="string">
       <text:p>=3</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Triangle</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=4&quot;" office:value-type="string" office:string-value="=4" calcext:value-type="string">
       <text:p>=4</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Ramp Up</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=5&quot;" office:value-type="string" office:string-value="=5" calcext:value-type="string">
       <text:p>=5</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Ramp Down</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=6&quot;" office:value-type="string" office:string-value="=6" calcext:value-type="string">
       <text:p>=6</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Square</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=7&quot;" office:value-type="string" office:string-value="=7" calcext:value-type="string">
       <text:p>=7</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Delta</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=8&quot;" office:value-type="string" office:string-value="=8" calcext:value-type="string">
       <text:p>=8</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>DC</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;=9&quot;" office:value-type="string" office:string-value="=9" calcext:value-type="string">
       <text:p>=9</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Noise</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce7" table:number-columns-repeated="2"/>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:formula="of:=&quot;19.08&quot;" office:value-type="string" office:string-value="19.08" calcext:value-type="string">
       <text:p>19.08</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>Enabled</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default"/>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce7"/>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
       <text:p>BOOL</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
@@ -1603,368 +1588,536 @@
      <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="26" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="26" calcext:value-type="float">
       <text:p>26</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>generatorVoltage1</text:p>
+      <text:p>Amplitude (V)</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>AWG2</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>SIGNED_FIX</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="12" calcext:value-type="float">
+      <text:p>12</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>Height of the waveform in volts. In binary, encoded as X*1.X*11</text:p>
+     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="27" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="27" calcext:value-type="float">
       <text:p>27</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>generatorOffset1</text:p>
+      <text:p>Offset (V)</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>AWG2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>SIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="12" calcext:value-type="float">
+      <text:p>12</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>Needs Calibration</text:p>
+     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="28" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="28" calcext:value-type="float">
       <text:p>28</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>generatorDeltaH1</text:p>
+      <text:p>Phase High (Samples)</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
+      <text:p>AWG2</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
+      <text:p>SIGNED_FIX</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="float" office:value="32" calcext:value-type="float">
+      <text:p>32</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
+      <text:p>Samples to offset the function generator. The generator runs at 50MHz. In binary, encoded as X*12.X*20</text:p>
+     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="29" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="29" calcext:value-type="float">
       <text:p>29</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>generatorDeltaL1</text:p>
+      <text:p>Phase Low</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="30" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="30" calcext:value-type="float">
       <text:p>30</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>generatorSqueareDuty1</text:p>
+      <text:p>Square Wave Duty Cycle</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>AWG2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>UNSIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="12" calcext:value-type="float">
+      <text:p>12</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="6" table:number-rows-spanned="1">
+      <text:p>Digital Trigger Settings</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:number-columns-repeated="5" table:style-name="Default"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="31" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="31" calcext:value-type="float">
       <text:p>31</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>digitalPattern1a</text:p>
+      <text:p>Stage 1 Trigger Previous Value</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>D</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>BITSET</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="16" calcext:value-type="float">
+      <text:p>16</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="2">
+      <text:p>Triggers when the value of the line matches “Current Value” and the value of the line the previous cycle matches “Previous Value”. This allows for triggering on rising/falling waveforms. 00=0, 11=1, 01=rising, 10=falling</text:p>
+     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="32" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="32" calcext:value-type="float">
       <text:p>32</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>digitalPattern1b</text:p>
+      <text:p>Stage 1 Trigger Current Value</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>D</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>BITSET</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="16" calcext:value-type="float">
+      <text:p>16</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce8"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="33" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="33" calcext:value-type="float">
       <text:p>33</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>digitalMask1</text:p>
+      <text:p>Stage 1 Trigger Enabled</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>D</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>BITSET</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="16" calcext:value-type="float">
+      <text:p>16</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>Triggers are only tested against the channels that have their bit set</text:p>
+     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="34" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="34" calcext:value-type="float">
       <text:p>34</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>digitalPattern2a</text:p>
+      <text:p>Stage 2 Trigger Previous Value</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>D</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>BITSET</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="16" calcext:value-type="float">
+      <text:p>16</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="9">
+      <text:p>Same as above, but each of these stages must match before a trigger is activated. Stages can be disabled by changing “Final Stage”</text:p>
+     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="35" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="35" calcext:value-type="float">
       <text:p>35</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>digitalPattern2b</text:p>
+      <text:p>Stage 2 Trigger Current Value</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>D</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>BITSET</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="16" calcext:value-type="float">
+      <text:p>16</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce8"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="36" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="36" calcext:value-type="float">
       <text:p>36</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>digitalMask2</text:p>
+      <text:p>Stage 2 Trigger Enabled</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>D</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>BITSET</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="16" calcext:value-type="float">
+      <text:p>16</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce8"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="37" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="37" calcext:value-type="float">
       <text:p>37</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>digitalPattern3a</text:p>
+      <text:p>Stage 3 Trigger Previous Value</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>D</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>BITSET</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="16" calcext:value-type="float">
+      <text:p>16</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce17"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="38" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="38" calcext:value-type="float">
       <text:p>38</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>digitalPattern3b</text:p>
+      <text:p>Stage 3 Trigger Current Value</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>D</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>BITSET</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="16" calcext:value-type="float">
+      <text:p>16</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce8"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="39" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="39" calcext:value-type="float">
       <text:p>39</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>digitalMask3</text:p>
+      <text:p>Stage 3 Trigger Enabled</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>D</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>BITSET</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="16" calcext:value-type="float">
+      <text:p>16</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce8"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="40" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="40" calcext:value-type="float">
       <text:p>40</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>digitalPattern4a</text:p>
+      <text:p>Stage 4 Trigger Previous Value</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>D</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>BITSET</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="16" calcext:value-type="float">
+      <text:p>16</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce17"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="41" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="41" calcext:value-type="float">
       <text:p>41</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>digitalPattern4b</text:p>
+      <text:p>Stage 4 Trigger Current Value</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>D</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>BITSET</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="16" calcext:value-type="float">
+      <text:p>16</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce8"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="42" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="42" calcext:value-type="float">
       <text:p>42</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>digitalMask4</text:p>
+      <text:p>Stage 4 Trigger Enabled</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>UNSIGNED</text:p>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>D</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>BITSET</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="16" calcext:value-type="float">
+      <text:p>16</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:style-name="ce8"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="43" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="43" calcext:value-type="float">
       <text:p>43</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>dt_delayMaxcnt1</text:p>
+      <text:p>Stage 1 Max Delay</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>D</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>UNSIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" office:value-type="float" office:value="16" calcext:value-type="float">
+      <text:p>16</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="4">
+      <text:p>The maximum number of cycles that can pass between measurements for a trigger to still activate.</text:p>
+     </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="44" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="44" calcext:value-type="float">
       <text:p>44</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>dt_delayMaxcnt2</text:p>
+      <text:p>Stage 2 Max Delay</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>D</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>UNSIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:covered-table-cell table:style-name="ce8"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="45" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="45" calcext:value-type="float">
       <text:p>45</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>dt_delayMaxcnt3</text:p>
+      <text:p>Stage 3 Max Delay</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>D</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>UNSIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:covered-table-cell table:style-name="ce8"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="46" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="46" calcext:value-type="float">
       <text:p>46</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>dt_delayMaxcnt4</text:p>
+      <text:p>Stage 4 Max Delay</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>D</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>UNSIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:covered-table-cell table:style-name="ce8"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="47" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="47" calcext:value-type="float">
       <text:p>47</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>dt_control</text:p>
+      <text:p>Settings</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>D</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>UNSIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="48" calcext:value-type="float">
+     <table:table-cell table:style-name="ce7" table:formula="of:=&quot;47.00..47.03&quot;" office:value-type="string" office:string-value="47.00..47.03" calcext:value-type="string">
+      <text:p>47.00..47.03</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+      <text:p>Serial Channel</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+      <text:p>UNSIGNED</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce7" table:formula="of:=&quot;47.04&quot;" office:value-type="string" office:string-value="47.04" calcext:value-type="string">
+      <text:p>47.04</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+      <text:p>Serial Enabled</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7"/>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+      <text:p>UNSIGNED</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce7" table:formula="of:=&quot;47.08..47.09&quot;" office:value-type="string" office:string-value="47.08..47.09" calcext:value-type="string">
+      <text:p>47.08..47.09</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+      <text:p>Final Stage</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7"/>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+      <text:p>UNSIGNED</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="float" office:value="2" calcext:value-type="float">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+      <text:p>The number of the final stage in the sequence</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="6" table:number-rows-spanned="1">
+      <text:p>Digital Signal Generator</text:p>
+     </table:table-cell>
+     <table:covered-table-cell table:number-columns-repeated="5" table:style-name="Default"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="48" calcext:value-type="float">
       <text:p>48</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>digitalVoltage</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>UNSIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="49" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="49" calcext:value-type="float">
       <text:p>49</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>digitalInputOutput</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>UNSIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="50" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="50" calcext:value-type="float">
       <text:p>50</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>digitalOutputBit</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>UNSIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="51" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="51" calcext:value-type="float">
       <text:p>51</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>digitalOutputMask</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>UNSIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="52" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="52" calcext:value-type="float">
       <text:p>52</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>digitalClkDivideH</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>UNSIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="ce1" office:value-type="float" office:value="53" calcext:value-type="float">
+     <table:table-cell table:style-name="ce3" office:value-type="float" office:value="53" calcext:value-type="float">
       <text:p>53</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>digitalClkDivideL</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
       <text:p>UNSIGNED</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="2"/>
     </table:table-row>
    </table:table>
    <table:named-expressions/>
